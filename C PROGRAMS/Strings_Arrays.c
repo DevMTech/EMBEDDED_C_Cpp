@@ -41,6 +41,7 @@ int main()
 	
 //	assert(!dotproduct(NULL, y, n, dp));	
 //	printf("\nDot Product : %d\n\n",*dp);
+
 }
 
 int concat(int *a, int na, int *b, int nb, int *c)

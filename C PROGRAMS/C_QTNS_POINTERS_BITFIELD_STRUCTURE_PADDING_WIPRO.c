@@ -17,7 +17,24 @@
 
 */
 
-//What will be output of the following program? NO OUTPUT
+//What will be output of the following program? 
+//int var = 5; //  DEFINED IN SAME OR ANOTHER FILE
+//
+//extern var = 10; //  
+//int main(void)
+//{
+//	
+//	printf(" var = %d", var);
+//	return 0;
+//}
+// https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/
+//OUTPUT: COMPILATION ERROR
+//[Warning] type defaults to 'int' in declaration of 'var'
+//[Warning] 'var' initialized and declared 'extern'
+//[Error] redefinition of 'var'
+
+
+//What will be output of the following program? 
 //#include <stdio.h> // COMPILATION ERROR IF NOT INCLUDED
 //int main()
 //{
@@ -25,6 +42,7 @@
 //	int n;
 //	fprintf(fp, "%d", 45);
 //}
+//ANS. NO OUTPUT
 
 
 
@@ -52,7 +70,7 @@
 //	int *k = p++; //	int *k = ++p;
 //	printf("  k = 0x%x\t= %d\n", k, k);
 //		
-//	int r = p - k; // implicitly 4 bytes evaluates to one int value 
+//	int r = p - k; // 4 bytes implicitly evaluates to one int value 
 //
 //	printf("  p = 0x%x\t= %d\n", p, p);
 //	printf("  k = 0x%x\t= %d\n", k, k);
@@ -90,7 +108,7 @@
 //	printf(" x = 0x%x\t= %d\n", x, x);
 //	printf(" a = %d = 0x%x = %c\n", *x, *x, *x);
 //	char** y = &x;
-//	y[0] = (char*)0x62fe15;
+//	y[0] = (char*)0x62fe14;
 //	printf(" x = 0x%x\t= %d\n", x, x);
 //	printf(" *x = %d = 0x%x = %c\n", *x, *x, *x);
 //	printf(" y = 0x%x", *y);
@@ -163,6 +181,9 @@
 //	printf(" *x = %d = 0x%x = %c\n", *x, *x, *x);
 //	int i = s.d;
 //}
+//ANS. 75% (4 bytes/16 bytes)
+
+
 
 
 //For what minimum value of x in a 32-bit Linux OS would make the size of s equal to 8 bytes?
@@ -179,6 +200,8 @@
 //4
 
 
+
+
 //What will be the output of the following code? // COMPILATION ERROR
 //#include <stdio.h>
 //main() 
@@ -191,7 +214,7 @@
 //}
 
 
-//What will be output of the program?
+//What will be output of the program? // True
 //#include <stdio.h>
 //int main(void)
 //{
@@ -202,7 +225,7 @@
 //	
 //	printf("\n *x = %d = 0x%x = %c\n", *x, *x, *x);
 //	
-//	x[0] = z[0]; // COPYINH int VALUE OF 'n' TO 'b' 
+//	x[0] = z[0]; // COPYING int VALUE OF 'n' TO 'b' 
 //	
 //	printf("\n *x = %d = 0x%x = %c\n", *x, *x, *x);
 //	
@@ -247,6 +270,9 @@
 //}
 // ANS. MNOwww
 
+
+
+
 // Assuming x as 32 bit signed int, what would be value of x after executing this snippet?
 //#include <stdio.h>
 //void printBinary(unsigned int n)
@@ -281,9 +307,14 @@
 //}
 // ANS. 10 2 5
 
+
+
 //What is the value of the following statement?
 //(x<<1) + x + (x>>1)
 // ANS. 3.5x
+
+
+
 
 //What will be output for the following program?
 //#include <stdio.h>
@@ -294,12 +325,17 @@
 //	return 0;
 //}
 
+
+
+
 //  Correct syntax to pass a Function Pointer as an argument?
 //OPTIONS:
 //void pass(int (*fptr)(int, float, char)){} // CORRECT
 //void pass(*fptr(int, float, char)){}
 //void pass(*fptr){}
 //void pass(int (*fptr)){}
+
+
 
 
 //Assuming x as 32 bit signed int, what would be value of x after executing this statement?
@@ -309,6 +345,8 @@
 //-4
 //2^31-1
 //-1 // CORRECT
+
+
 
 
 //What will be output of this program?
@@ -328,6 +366,8 @@
 //2 1 0
 //0 0 0 0 // CORRECT
 
+
+
 //What will be the output of the following code? // ORDER OF PRECEDENCE: RIGHT TO LEFT 
 //#include <stdio.h>
 //int main()
@@ -341,6 +381,8 @@
 // ANS: 11 10
 
 
+
+
 //What will be output for the following program?
 //int main()
 //{
@@ -350,6 +392,9 @@
 //	return 0;
 //}
 //ANS: 00021
+
+
+
 
 //What will be output of the following program?
 //#include <stdio.h>
@@ -362,6 +407,8 @@
 //}
 
 
+
+
 //Output of following program ?
 //#include <stdio.h>
 //int main()
@@ -369,6 +416,8 @@
 //	int a = 10;
 //	printf("%d", ++a++); //	[Error] lvalue required as increment operand
 //}
+
+
 
 
 //What will be the output of the following code?

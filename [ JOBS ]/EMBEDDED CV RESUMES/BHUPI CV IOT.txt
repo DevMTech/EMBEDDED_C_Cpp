@@ -1,0 +1,115 @@
+	
+	BHUPENDRA PRATAP SINGH
+	Former General Secretary, Student Affairs Council, SMVDU
+	& Social worker at Swadeshi Jagran Manch
+
+	Bhupendra Pratap Singh
+	Product Development | Deep Tech | Speaker | Cloud Native Architecture 
+
+	Contact:- 9086244169
+
+	Email Id:- bhupendra.smvdu@gmail.com
+	
+	https://www.linkedin.com/company/centre-for-development-of-advanced-computing/
+	
+	https://www.youtube.com/channel/UCJvMXTVWR_fXH4oLOEb-oQA
+	
+	MQTT at A Glance : Basic to Advanced | OASIS 3.1.1 Features | IoT Protocols
+	https://www.youtube.com/watch?v=fRbZCI6A94U
+		
+	https://enrichiot.in/
+	
+	https://bhupendrasmvdu.webs.com/
+	
+	
+
+
+	 HashStudioz Technologies Private Limited
+
+	Digital Transformation Consultancy & Software Development Company
+	TRAVEL | IoT | BLOCKCHAIN | CLOUD | MOBILITY SOLUTION
+	Information Technology & Services
+	Noida, Uttar Pradesh 
+	https://www.hashstudioz.com/
+	https://www.linkedin.com/company/hashstudioz/
+	https://www.glassdoor.co.in/Overview/Working-at-HashStudioz-EI_IE2954057.11,22.htm
+
+	
+Converting Product Management Vision into tangible, state of the art software to make the customers experience a delight.
+
+Experience in creating product roadmaps from conception to launch, driving the product vision, defining go-to-market strategy, and leading design discussions.
+
+Manage IoT technology projects and product developments throughout their lifecycle for the digitization of the current and future digital offerings.
+
+Skilled polyglot programmer specializing in Internet of Things.
+
+Experienced with Distributed Ledger technology (fee less transactions), Wireless Sensor Networks, Edge Computing Frameworks, Cloud Native Applications, Embedded Linux, TICK Stack and communicating technical results to audiences with various backgrounds.
+
+Thorough understanding of Socket Programming, C, Python, Node.JS, SQL, Time Series databases, Prometheus, Docker, Kubernetes, Grafana and other computing frameworks and languages.
+
+Published more than 10 research papers in reputed journals and conferences.
+
+Loves Working and contributing with open source tools and technologies.
+
+
+
+Senior IoT Engineer
+HashStudioz Technologies Private Limited Full-time
+Dates Employed Apr 2021 – Present
+Employment Duration 3 mos
+Location Noida, Uttar Pradesh, India
+Tech Lead
+
+
+Bliss Health, Inc.
+Company Name Bliss Health, Inc.
+Total Duration 9 mos
+
+    Title IoT Product Manager
+    Full-time
+    Dates Employed Nov 2020 – Apr 2021
+    Employment Duration 6 mos
+    Location Durham, North Carolina, United States
+    Lead the project from Ideation to product phase to create seamless connections between devices and the Electronic Health Records, to bring concise patient monitoring directly to the care providers.
+    Title IoT, R&D Lead
+    Full-time
+    Dates Employed Aug 2020 – Nov 2020
+    Employment Duration 4 mos
+    Location Durham, North Carolina, United States
+    Bliss Health is a USA based technology company focused on connecting the healthcare ecosystem and enabling hybrid and virtual care models through their Bliss CONNECT platform.
+
+    Roles and Responsibilities:
+    · Project Lead for IoT solution development across the layers.
+    · Designing architecture, Writing firmware for Healthcare IoT Devices, Platform development.
+    · Design and implement innovative and practical solutions to feature requests
+    · Participate in the definition of coding standards & methods used on the team, and ensure coding standards are followed;
+    · Collaborate with system/feature stakeholders to discuss, collect, interpret and analyse technical constraints and establish technical solutions.
+	
+	
+
+IoT, Research And Development Engineer
+CDAC Full-time
+Dates Employed Sep 2017 – Aug 2020
+Employment Duration 3 yrs
+Location Pune Area, India
+Research, Development in Internet of Things across the layers.
+Technical support and guidance to IAF exam software.
+Developing technical contents and modules for PG-DIoT course.
+Communicating technical results to PG-DIoT and PG-DESD students (NSQF-Level-VIII).
+
+
+Centre for Development of Advanced Computing
+Postgraduate Student
+Dates Employed Feb 2017 – Aug 2017
+Employment Duration 7 mos
+Location Pune Area, India
+PG Diploma in Internet of Things
+
+
+B&R Industrial Automation
+Internship
+Dates Employed Jul 2017
+Employment Duration 1 mo
+Location Pune Area, India
+A well-established IOT Architecture ranging from End-Device to Cloud Platform has been implemented. At Layer-1 Ultrasonic Sensor is used to measure the water level of a field/tank. At layer-2 OPC-UA Client and Server architecture is implemented to send and receive data from the sensors. At layer-3 scalable and flexible Cloud Platform Thingsboard is used where data aggregation and visualization is done, apart from the data visualization controlling of actuator 5V DC motor is done which will turn on and off according to the threshold of water Level. As an Administrator part, HMI is implemented on the Cloud Platform where Actuators can be controlled at any moment. The notification system has also been implemented. Whenever any unexpected event happens or any intelligent decision taken from the cloud side, Administrator will get email and SMS on his/her registered Email and Mobile Phone.
+	

@@ -1,0 +1,454 @@
+	
+	Git Going Fast: One Hour Crash Course
+	https://wipro.udemy.com/course/git-going-fast/
+	
+PRO GIT V2
+http://git-scm.com/book/en/v2
+
+GIT TUTORIAL
+https://www.atlassian.com/git/tutorials
+https://gitforwindows.org/
+http://www.git-scm.com/
+
+
+Learn Branching with Bitbucket Cloud
+https://www.atlassian.com/git/tutorials/learn-branching-with-bitbucket-cloud
+
+GIT CHECKOUT
+https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+https://git-scm.com/docs/git-checkout
+https://git-scm.com/docs/git-restore
+
+https://pages.github.ccs.neu.edu/CS5500-CourseMaterials/2019-Fall-Section1/pdf/git-cheatsheet-for-web.pdf
+	
+Files must pass through Git's staging area before being committed.
+Git's staging area is sometimes referred to as the index?
+
+GIT BASH COMMANDS
+
+$ git version
+
+$ pwd
+
+$ git config --global user.name "Debajyoti Maitra"
+
+$ git config --global user.email "er.dmaitra@gmail.com"
+
+$ git config --global --list
+	filter.lfs.smudge=git-lfs smudge -- %f
+	filter.lfs.process=git-lfs filter-process
+	filter.lfs.required=true
+	filter.lfs.clean=git-lfs clean -- %f
+	user.name=Debajyoti Maitra
+	user.email=er.dmaitra@gmail.com
+
+$ cat ~/.gitconfig
+	[filter "lfs"]
+			smudge = git-lfs smudge -- %f
+			process = git-lfs filter-process
+			required = true
+			clean = git-lfs clean -- %f
+	[user]
+			name = Debajyoti Maitra
+			email = er.dmaitra@gmail.com
+
+
+
+
+Git initialization
+==================
+How can you start a project using Git?
+'git init' command on an empty directory
+'git init' command in a directory containing project files already
+cloning an existing project from somewhere else (Github)
+
+$ git init [project-name]	// project-name parameter is optional. 
+			// If not supplied, Git will initialize the current directory.
+
+STARTING WITH FRESH / NEW GIT REPO
+$ pwd
+
+$ cd git-projects/			// C:\Users\erdma\git-projects
+
+$ git init git-demo // STARTING WITH FRESH / NEW GIT REPO / PROJECT
+
+$ ls -a
+
+
+WORKING WITH EXISTING GIT REPO
+$ pwd
+
+$ cd git-projects/
+
+$ cd git-demo/
+
+$ ls
+
+$ git init			// WORKING WITH EXISTING GIT REPO / PROJECT 
+
+
+$ notepad README.md // make changes to the README.md, save & exit
+
+$ git status		// Creating/Editing File/s in Working Directory
+				(use "git add <file>..." to update what will be committed)
+				(use "git restore <file>..." to discard changes in working directory)
+
+$ git add README.md // Adding new changes in File/s to Git Staging Area (Git Index)
+				(use "git restore --staged <file>..." to unstage)
+
+$ git status   		// File is in Git Staging Area, ready to be commited  
+
+$ git commit -m "Initial Commit" // Commiting all changes in Files currently in Git's Staging Area
+
+$ git status		// Working Directory has no uncommited Files
+
+$ git commit -am "YOU CAN BOTH ADD TO STAGING AREA & COMMIT USING THIS SHORTCUT COMMAND"
+
+// You cannot use the git commit -a shortcut on new files ??
+
+$ clear
+
+$ git add .
+
+$ git commit -m "ALL MODIFIED FILES COMMITED"
+
+$ git log // ENTER TO SEE MORE | 'q' or 'z' TO EXIT
+
+$ git log --color --decorate --graph --oneline
+
+
+ correct syntax for adding newly modified files to Git's staging area
+ git add file-name
+ git add .
+ git commit -a
+ git add -A
+ 
+
+STEPS TO MAKE CHANGES TO A FILES AND ROLL BACK FROM STAGING AREA
+TO PREVIOUS VERSION BEFORE THE CHANGES WERE MADE
+
+$ notepad README.md // MAKE CHANGES TO README.md 
+
+$ git add README.md  // ADDED TO STAGING AREA
+
+$ git status
+
+$ git reset HEAD README.md // UNSTAGE FILES
+				Unstaged changes after reset:
+				M       README.md
+
+$ git status
+
+$ notepad README.md 
+
+$ git checkout -- README.md  // ROLL BACK TO PREVIOUS VERSION OF FILE
+
+$ git status
+
+$ notepad README.md 
+
+
+$ git log -2
+
+$ git stash // to reject all changes
+
+
+
+
+
+DELETE A FILE THA THAS BEEN COMMITED BY MISTAKE
+$ notepad debug.log // EDIT THE FILE
+
+$ git status
+				On branch master
+				Untracked files:
+				  (use "git add <file>..." to include in what will be committed)
+						debug.log
+
+$ git add debug.log
+
+$ git status
+				On branch master
+				Changes to be committed:
+				  (use "git restore --staged <file>..." to unstage)
+						new file:   debug.log
+		
+$ git commit -m "debug.log file commited by mistake"
+				[master 914dd1b] debug.log file commited by mistake
+				 1 file changed, 1 insertion(+)
+				 create mode 100644 debug.log
+ 
+$ git rm debug.log
+
+$ git status
+				On branch master
+				Changes to be committed:
+				  (use "git restore --staged <file>..." to unstage)
+						deleted:    debug.log
+		
+$ git commit -m "removing debug.log"
+				[master fd80f1f] removing debug.log
+				 1 file changed, 1 deletion(-)
+				 delete mode 100644 debug.log
+
+
+
+DELETING A FILE DIRECTLY FROM REPO FOLDER 
+$ notepad info.log // EDIT THE FILE
+
+$ git status
+On branch master
+				Untracked files:
+				  (use "git add <file>..." to include in what will be committed)
+						info.log
+				nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add info.log
+
+$ git commit -m "adding info.log"
+				[master f703f68] adding info.log
+				 1 file changed, 1 insertion(+)
+				 create mode 100644 info.log
+
+$ git status
+				On branch master
+				nothing to commit, working tree clean
+
+// MANUALLY DELETE THE 'info.log' FILE FROM THE REPO FOLDER
+
+$ git status
+				On branch master
+				Changes not staged for commit:
+				  (use "git add/rm <file>..." to update what will be committed)
+				  (use "git restore <file>..." to discard changes in working directory)
+						deleted:    info.log
+				no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git add -u  	// -u -> RENAME OR MOVE FILES OUTSIDE GIT
+				// git add .
+
+$ git status
+				On branch master
+				Changes to be committed:
+				  (use "git restore --staged <file>..." to unstage)
+						deleted:    info.log
+
+
+$ git commit -m "removing info.log"
+				[master 596c421] removing info.log
+				 1 file changed, 1 deletion(-)
+				 delete mode 100644 info.log
+
+$ git status
+				On branch master
+				nothing to commit, working tree clean
+
+
+MOVING FILES TO A SUB-FOLDER INSIDE THE REPO
+$ mkdir web
+
+$ git mv index.html web
+
+$ git status
+				On branch master
+				Changes to be committed:
+				  (use "git restore --staged <file>..." to unstage)
+						renamed:    index.html -> web/index.html
+
+
+$ git commit -m "moving index.html to web folder"
+				[master 817c679] moving index.html to web folder
+				 1 file changed, 0 insertions(+), 0 deletions(-)
+				 rename index.html => web/index.html (100%)
+
+
+
+ADDING FILES TO .gitignore FILE, SO THAT THEY ARE IGNORED WHEN COMMITING 
+The .gitignore file in your repository must be version controlled like any other file in Git
+
+$ notepad app.log
+
+$ git status
+				On branch master
+				Untracked files:
+				  (use "git add <file>..." to include in what will be committed)
+						app.log
+				nothing added to commit but untracked files present (use "git add" to track)
+
+$ notepad .gitignore // *.log 
+
+$ git status 
+				On branch master
+				Untracked files:
+				  (use "git add <file>..." to include in what will be committed)
+						.gitignore
+				nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add .gitignore
+
+$ git status
+				On branch master
+				Changes to be committed:
+				  (use "git restore --staged <file>..." to unstage)
+						new file:   .gitignore
+		
+$ git commit -m "Adding .gitignore file"
+				[master b1f27b9] Adding .gitignore file
+				 1 file changed, 1 insertion(+)
+				 create mode 100644 .gitignore		
+
+
+
+
+ADDING SSH-KEYS (USE GIT BASH TERMINAL )
+OPEN GIT BASH TERMINAL IN ADMIN MODE IN THE GIT REPO FOLDER ('git-demo' in our case)
+$ mkdir .ssh
+
+$ cd .ssh
+
+$ ssh-keygen -t rsa -b 4096 -C "yourEmail@xyz.com"
+// PRESS ENTER ENTER TO NOT SET ANY PASSPHRASE
+// OPEN 'id_rsa.pub' & COPY ITS CONTENTS 
+// LOG IN TO GIT-HUB, GO TO ACCOUNT SETTINGS, 
+// SSH-KEY -> ADD THE SSH KEY YOU COPIED ('id_rsa.pub') 
+// GIVE A TITLE/NAME TO THE SSH-KEY 
+// TO IDENFIFY THE LAPTOP/PC WHERE IT EXISTS & IS ASSOCIATED WITH 
+ 
+$ ssh -T git@github.com
+yes
+
+
+Git Remote Commands
+===================
+ORIGIN :  first or primary remote location name used by convention in Git
+git status
+git remote add origin git@github.com:scm-ninja/git-demo.git
+git remote -v
+git push -u origin master
+git push origin master
+ls
+cd web/
+mate index.html
+clear
+git commit -am "Updating index page for GH"
+git status
+git pull origin master
+git push origin master
+
+// it recommend to issue the git pull command 
+// immediately before issuing the git push command
+// so that changes made by others to repo since 
+// our last pull gets integrated in our repo before pushing changes 
+ 
+
+=========================================================================================================================================================================================
+
+
+
+$ git help config 	// opens local MAN pages for 'config' command
+					// file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/git-config.html
+		
+$ git help commit 	// opens local MAN pages for 'commit' command		
+
+$ git help			// file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/	
+  			usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+					   [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+					   [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+					   [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+					   [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+					   <command> [<args>]
+
+			These are common Git commands used in various situations:
+
+			start a working area (see also: git help tutorial)
+			   clone             Clone a repository into a new directory
+			   init              Create an empty Git repository or reinitialize an existing one
+
+			work on the current change (see also: git help everyday)
+			   add               Add file contents to the index
+			   mv                Move or rename a file, a directory, or a symlink
+			   restore           Restore working tree files
+			   rm                Remove files from the working tree and from the index
+			   sparse-checkout   Initialize and modify the sparse-checkout
+
+			examine the history and state (see also: git help revisions)
+			   bisect            Use binary search to find the commit that introduced a bug
+			   diff              Show changes between commits, commit and working tree, etc
+			   grep              Print lines matching a pattern
+			   log               Show commit logs
+			   show              Show various types of objects
+			   status            Show the working tree status
+
+			grow, mark and tweak your common history
+			   branch            List, create, or delete branches
+			   commit            Record changes to the repository
+			   merge             Join two or more development histories together
+			   rebase            Reapply commits on top of another base tip
+			   reset             Reset current HEAD to the specified state
+			   switch            Switch branches
+			   tag               Create, list, delete or verify a tag object signed with GPG
+
+			collaborate (see also: git help workflows)
+			   fetch             Download objects and refs from another repository
+			   pull              Fetch from and integrate with another repository or a local branch
+			   push              Update remote refs along with associated objects
+
+			'git help -a' and 'git help -g' list available subcommands and some
+			concept guides. See 'git help <command>' or 'git help <concept>'
+			to read about a specific subcommand or concept.
+			See 'git help git' for an overview of the system.
+
+
+
+=========================================================================================================================================================================================
+
+
+git clone http://hcdcqms.pune.cdac.in/ict-ne/iot-solutions/ALTS.git
+	
+git clone http://hcdcqms.pune.cdac.in/ict-ne/iot-solutions/AACO.git
+
+cd AACO/
+ 
+//git rm -rf ALTS 
+
+//git add -u
+
+git add .
+
+git status
+
+git commit -m "MSG"
+
+git push origin master
+
+
+
+Git global setup
+
+git config --global user.name "Debajyoti Maitra"
+git config --global user.email "debajyotim@cdac.in"
+
+Create a new repository
+
+git clone git@hcdcqms.pune.cdac.in:ict-ne/iot-solutions/ALTS.git
+cd ALTS
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+
+cd existing_folder
+git init
+git remote add origin git@hcdcqms.pune.cdac.in:ict-ne/iot-solutions/ALTS.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+
+cd existing_repo
+git remote add origin git@hcdcqms.pune.cdac.in:ict-ne/iot-solutions/ALTS.git
+git push -u origin --all
+git push -u origin --tags

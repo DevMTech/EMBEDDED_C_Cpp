@@ -1,3 +1,7 @@
+
+	REMOTE LINUX KERNEL DEVELOPER JOBS
+	https://stackoverflow.com/jobs?q=linux&r=true
+
 ==============================================================================================================
 	
 	What is the project/team I am going to join working on?
@@ -50,6 +54,8 @@
 ==============================================================================================================
 	
 	Software Engineer, Embedded Systems - GOOGLE, BLR
+	=================================================
+
 	https://careers.google.com/jobs/results/130165325015458502-software-engineer-embedded-systems/
 	
 	https://careers.google.com/jobs/results/130165325015458502/
@@ -62,6 +68,7 @@
 	
 	https://opensource.google/
 	https://github.com/google
+	CareerCup
 	
 	Minimum qualifications:
 • Bachelor's degree in Computer Science, or equivalent practical experience.
@@ -87,10 +94,184 @@ Responsibilities
 • Develop new software, hardware, and system architecture to support future applications.
 
 
-    Piyush Itankar
+	Big-O analysis
+	bit-twiddling challenges
+	They'll started out with only a vague problem statement, you really have to ask a lot of questions to figure out what is expected.
+	Know your binary trees and hash tables. 
+	hash-table implementation in C
+	Nested strings in parenthesis to be repeated the number of times mentioned by an index alongside in square brackets.
+	If you didn't have access to the functions malloc() and free(), describe how you would implement them.
+	
+	Coding challenge: It was a problem related to a board game with particular rules  and  the state of a piece in the board needed to be checked. There was a dependence on the pieces in neighbors cells  and a recursive  solution was forbidden.
+	I used a stack to mimic the function that a recursive set of function calls  would have similarly to a depth first search.
+
+	computer architecture, memory hierarchy, and assembly language programming for CPU architectures 
+	a singly linked-list in C code
+	dynamic programming problems 	
+	
+	basic algorithms: selection sort, exchange sort, quicksort, heapsort or mergesort, use of lists, stacks, 
+	(priority) queues, trees and tries; 
+	but graphs are even more important: depth first traversal, breadth first, Kruskal, Prim. 
+	You should certainly know how to do all these using the standard libraries for your language, but the more you can do without libraries the better.
+	
+	
+	Read N Characters Given Read4 II - Call multiple times
+	https://ttzztt.gitbooks.io/lc/content/string/read-n-characters-given-read4-ii-call-multiple-times.html
+	https://www.youtube.com/watch?v=5gO5syMOKnI
+	https://wxx5433.gitbooks.io/interview-preparation/content/part_ii_leetcode_lintcode/string/read_n_characters_given_read4_ii.html
+	http://buttercola.blogspot.com/2014/11/leetcode-read-n-characters-given-read4_23.html
+	
+	LeetCode DS ALGO Questions 
+	http://buttercola.blogspot.com/2015/08/leetcode-bitwise-and-of-numbers-range.html
+	https://github.com/acgtun/leetcode
+	https://nifannn.github.io/tags/#Leetcode
+	https://www.youtube.com/playlist?list=PLxhNaYPwn9T40zX3DeAAE63A8eBFKdLs3
+	https://happygirlzt.com/codelist.html
+	https://wentao-shao.gitbook.io/leetcode/
+
+	
+	Google | Embedded Software Engineer | Bangalore | July 2019 [Reject]
+	https://leetcode.com/discuss/interview-experience/336276/Google-or-Embedded-Software-Engineer-or-Reject/307033
+    Embedded Coding Question.
+    Write a driver wrapper API on top of an existing driver API.
+    Driver API
+
+        size_t read(size_t* buf)   // this driver API reads 512 bytes from a pheripheral 
+         
+         // Write wrapper as below 
+        size_t read_bytes(struct *rs, size_t* buf, size_t count) // You need to return count bytes in the buffer. 
+
+	The interviewer did not explain the problem rather asked me to go throw the problem written on 
+	a google document. It took me little time to understand the trick involved. 
+	Since the driver API reads only 512 bytes you need to cache the data inside the wrapper API 
+	when the caller wants to read less. 
+	The 'rs' variable can maintain a state machine to know whether you have something read 
+	in your internal buffer on not.
+	
+	size_t read_bytes(struct *rs,size_t* buf,size_t count)
+	{
+		int readBytes = 0;
+		bool dataToRead = true;
+		char tmp[512];
+
+		while(dataToRead && readBytes<count)
+		{
+			int bytesFromPeri = read(tmp);//assuming read() returns the number of bytes read from the peripheral
+			dataToRead = bytesFromPeri < 512; 
+			int toBeCopied = min(bytesFromPeri,count);
+
+			//copying the data to buf
+			for(int i = 0; i<toBeCopied ;i++)
+			{	buf[readBytes++] = tmp[i];
+			}
+
+		}
+
+		return readBytes;
+	}
+	
+	
+	find largest binary gap in a given byte; than in a 64 bit-number, etc.
+	first - naively; then employ lookup table (for byte); than break down the given number into bytes 
+	- but also create lookup table for number of leading and trailing zeros in each byte, etc.
+	
+	
+	
+	GOOGLE - practice problems, former Google interview questions, online courses, videos
+	https://techdevguide.withgoogle.com/resources/?topics=interview-prep
+	
+	Google Interview Experience for SDE
+	https://www.geeksforgeeks.org/google-interview-experience-for-sde/
+	https://www.geeksforgeeks.org/tag/google/
+	https://www.pramp.com/#/
+	
+	https://leetcode.com/discuss/interview-experience/336276/Google-or-Embedded-Software-Engineer-or-Reject/307033
+	https://leetcode.com/accounts/login/?next=/problems/read-n-characters-given-read4-ii-call-multiple-times/
+	
+
+	
+	Embedded software interview question collection
+	https://groups.google.com/g/comp.arch.embedded/c/aGj8KNTGa4c?pli=1
+	
+	Dictionary of Algorithms and Data Structures
+	https://xlinux.nist.gov/dads/
+	
+	Google software engineer interview: the only post you'll need to read
+	https://igotanoffer.com/blogs/tech/google-software-engineer-interview
+	
+	BIG-O-NOTATION
+	https://www.bigocheatsheet.com/
+
+==============================================================================================================
+
+    Piyush Itankar SWE @GOOGLE
 	Embedded System Software Engineer at Google 
 	https://www.linkedin.com/in/itankar/
 	
+Google Interview Experience - Piyush Itankar
+https://itankar.com/hello-google/
+
+DS & ALGO for GOOGLE Interview
+Implement Hash-table + linked list vs Hash-table + tree?
+https://github.com/itankar/ds_and_algorithms
+
+MIT Introduction to Algorithms
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/
+
+- Computer Architecture: To answer anything embedded (and around CPUs and Memory). 
+
+- C language: to deal with memory and embedded type of problems. Function Pointers, struct, C99
+
+- Python: to deal with a problem that is high level and would take too long to code in C.
+
+- Embedded System Design: I referred to Frank Vahid's book to refresh the design tricks usually used.
+
+Cracking the coding interview Book
+
+Operating Systems concepts — race conditions, threading, thread-safe access, deadlocks, ways to detect and avoid those, usage of mutexes, semaphores,
+
+Bluetooth keyboard HID driver
+
+could break the problem to use threads, attach to different cores and structure the computation to have all the required data in the Caches the execution speed would become -
+
+(number of threads) * (number of cores) * (cache hit time).
+
+	
+[Google]
+I spend most of my time writing lower level C code (sometimes assembly code as needed), 
+OS kernel code, browsing driver code bases, reading IP specs, 
+reverse engineering and spreading the learnings with my teammates :)
+
+[Intel]
+I worked as a Embedded Software Engineer, implementing drivers and stack for Bluetooth (Primarily  in C and Python). 
+I've also coded firmware modules (memory manager and some math algorithms) for a GNSS chip during my internship at Intel. 
+And, lately I've been studying the Bluetooth RF chain and developing a software tool to control 
+the RF Peripheral registers of the controller discretely. 
+I am comfortable working both with software and hardware design/development.
+
+I am personally interested in Hardware-Software co-design/development for solutions 
+which need to be scalable, fast and maintainable using RISCV/ARM, FPGA(verilog/system verilog), 
+Linux and C (or assembly, C++, Python). I am comfortable working with huge code bases. 
+I like working in teams and on projects that involve a multi-disciplinary touch (System level, Hardware level, firmware level etc).
+
+[Others]
+I spend most of my free time digging into Software-Hardware Design. 
+
+You can browse through few of my projects (put on github):
+
+1. 32 Bit MIPS Processor design and Implementation for DE1Soc FPGA (under active development): 
+Implements the minimum MIPS ISA for a 32 bit single cycle processor. git: https://github.com/pitankar/mips-cpu
+
+2. OS Implementation for a 32 bit ARM Controller (under active development): Implements a scheduler 
+for ARM Cortex M4 processors in C. git: https://github.com/pitankar/arm-rtos
+
+3. Random Hardware design implementation for FPGA: git: https://github.com/pitankar/FPGA-Designs
+
+Find all my previous projects on the links below:
+Github: https://github.com/pitankar
+GitLab: https://gitlab.com/users/pitankar/projects	
+
+
 	FPGA: From ground up!
 	https://www.linkedin.com/pulse/fpga-from-ground-up-piyush-itankar/
 	
@@ -116,28 +297,6 @@ Responsibilities
 	https://github.com/pitankar/riscv-sw
 	https://github.com/riscv-rust/hifive1-recover
 	
-[Google]
-I spend most of my time writing lower level C code (sometimes assembly code as needed), OS kernel code, browsing driver code bases, reading IP specs, reverse engineering and spreading the learnings with my teammates :)
-
-[Intel]
-I worked as a Embedded Software Engineer, implementing drivers and stack for Bluetooth (Primarily  in C and Python). I've also coded firmware modules (memory manager and some math algorithms) for a GNSS chip during my internship at Intel. And, lately I've been studying the Bluetooth RF chain and developing a software tool to control the RF Peripheral registers of the controller discretely. I am comfortable working both with software and hardware design/development.
-
-I am personally interested in Hardware-Software co-design/development for solutions which need to be scalable, fast and maintainable using RISCV/ARM, FPGA(verilog/system verilog), Linux and C (or assembly, C++, Python). I am comfortable working with huge code bases. I like working in teams and on projects that involve a multi-disciplinary touch (System level, Hardware level, firmware level etc).
-
-[Others]
-I spend most of my free time digging into Software-Hardware Design. You can browse through few of my projects (put on github):
-
-1. 32 Bit MIPS Processor design and Implementation for DE1Soc FPGA (under active development): Implements the minimum MIPS ISA for a 32 bit single cycle processor. git: https://github.com/pitankar/mips-cpu
-
-2. OS Implementation for a 32 bit ARM Controller (under active development): Implements a scheduler 
-for ARM Cortex M4 processors in C. git: https://github.com/pitankar/arm-rtos
-
-3. Random Hardware design implementation for FPGA: git: https://github.com/pitankar/FPGA-Designs
-
-Find all my previous projects on the links below:
-Github: https://github.com/pitankar
-GitLab: https://gitlab.com/users/pitankar/projects	
-
 	
 ==============================================================================================================
 Senior Firmware Engineer
@@ -180,6 +339,34 @@ Experience on *Stepper motor control*. (Metrohm Pune)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Platforms Software Developer - Engineer
+Qualcomm Technologies, Inc
+	https://www.naukri.com/job-listings-Platforms-Software-Developer-Engineer-Qualcomm-Technologies-Inc-Bangalore-Bengaluru-1-to-8-years-020621501144?xp=3&src=ja1021114&xid=1021114%255Egm%255E159142715&uid=159142715&alertId=&utm_campaign=jobalert_revamp&utm_medium=email&utm_source=joblink&utm_content=47fe729813dd7253fa3dc22f281001a13d46f99478e362572ba9b61a1f96d340
+	https://qualcomm.wd5.myworkdayjobs.com/External/job/Platforms-Software-Developer---Engineer_3013340
+	
+	1 years experience with Programming Language such as C, C , Java, Python, etc. 
+	
+    Extensive on-chip application development experience with a clear understanding of chip development life cycle and exposure to SoCs, peripherals and embedded environments.
+
+    Knowledge of realizing low-power use cases, sensors in the world of smart watches will be an asset.
+
+    Experience with chip bring up and sound knowledge of digital hardware along with ability to read board schematics
+
+    Exposure to working on FPGA based emulation setups, debugging tools and use of utilities like logic analyzers, oscilloscope, JTAG interfaces over Lauterbach/J-Link .
+
+    Ability to provide work breakdown for new features with feasibility study, effort estimates and risk mitigation
+
+    Knowledge of hardware sensors like Accelerometer, Gyro, Magnetometer, PPG, ECG etc. and softwarealgorithmic sensors like Pedometer, Display sensors, Motion Detection etc. required.
+	
+    Excellent C and/or C++ programming skills with proven experience of writing efficient code for low powered and memory constrained systems
+
+    Knowledge of embedded platforms peripherals such as UART, SPI, I2C, I3C etc.
+
+    Knowledge of RTOS based environments required. Exposure to working with QP ( Quantum Leap framework ) or FreeRTOS is highly desired.
+
+    Strong understanding of ARM architecture especially Cortex-M series
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Senior WiFi Firmware Engineer

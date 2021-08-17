@@ -1,30 +1,1008 @@
 	
- Output of C programs | Set 64 (Pointers)
- https://www.geeksforgeeks.org/tag/c-output/
+	Applications in C, C++ for Engineering Technology Study Guide
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	http://faculty.salina.k-state.edu/tim/CMST302/study_guide/index.html
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	C Data Structures and Algorithms - Programming & Problems
+	=========================================================
+	
+	Data Structures and Algorithms Problems - TECHIE DELIGHT
+	Stack, Queue, Linked List, Doubly Linked List, Binary Tree, 
+	Dynamic Programming, Divide & Conquer, String, Sort, Matrix, Array
+	https://www.techiedelight.com/data-structures-and-algorithms-problems/
+	https://www.techiedelight.com/Category/Binary/
+	Sort an array of 0’s, 1’s, and 2’s (Dutch National Flag Problem)
+	https://www.techiedelight.com/sort-array-containing-0s-1s-2s-dutch-national-flag-problem/
+	Remove loop from a linked list
+	https://www.techiedelight.com/remove-loop-linked-list/
+	
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	Data Structures Programming
+	Stack, Queue, Linked List, Doubly Linked List, Binary Tree, Matrix, Array
+	https://www.techcrashcourse.com/2016/06/data-structures-programming.html
+	Merge Two Sorted Linked List
+	https://www.techcrashcourse.com/2016/06/merge-two-sorted-linked-list.html
+	Reverse a Stack using Recursion
+	https://www.techcrashcourse.com/2016/06/c-program-to-reverse-stack-using-recursion.html
+	
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	C Programming Examples on Data-Structures: 
+	Hashing, Heap, Array, Vector, Stack, Queue and Linked List
+	https://www.sanfoundry.com/c-programming-examples-data-structures/
+	
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	C Programming Exercises, Practice, Solution
+	https://www.w3resource.com/c-programming-exercises/
+	
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	CDECL.ORG -> C POINTER DEFINITIONS DECODING
+	cdecl.org
+	
+	Output of C programs | Set 64 (Pointers)
+	https://www.geeksforgeeks.org/tag/c-output/
+
+	TCS NQT Coding Questions and Answers
+	https://www.faceprep.in/tcs/tcs-nqt-coding-questions/
+
+	https://www.cquestions.com/2010/10/c-interview-questions-and-answers.html
+
+	https://www.codesdope.com/course/
+	
+	
+	
+
+	
+	
+	•	C Tutor - Visualize C code execution to learn C online 
+	(also visualize Python2, Python3, Java, JavaScript, TypeScript, Ruby, C, and C++ code) 
+	Structs | Nested structs | Array overflow | Array param | 
+	String reverse | Pointer levels | Pointer chain | Pointers wild | Typedef
+	http://pythontutor.com/c.html#mode=edit
+	
+	C INTERNALS
+	https://www.avabodh.com/cin/cin.html
+	
+	C++ INTERNALS
+	https://www.avabodh.com/cxxin/cxx.html	
+	C Programming Topics
+	https://stanislavs.org/helppc/idx_c.html
+	
+	Assembler Programming Topics
+	https://stanislavs.org/helppc/idx_assembler.html
+	
+	Getting started with … Rust
+	https://stackoverflow.blog/2021/03/15/getting-started-with-rust/
+	
+	Getting started with … Python 
+	https://stackoverflow.blog/2021/07/14/getting-started-with-python/
+	
+	
+	
+	fork() method explanation with example in C
+	https://www.codevscolor.com/c-fork-example
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	Linux Tutorial for Beginners Playlist - thenewboston
+	https://www.youtube.com/playlist?list=PL6gx4Cwl9DGCkg2uj3PxUWhMDuTw3VKjM
+
+	C Programming Tutorials - Windows - TheNewBoston
+	https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq
+
+	C Programming in Linux Tutorial - ShellWave
+	https://www.youtube.com/playlist?list=PLypxmOPCOkHXbJhUgjRaV2pD9MJkIArhg
+
+
+	Linux Command-Line Interface Tutorials (CLI) - ShellWave
+	https://www.youtube.com/playlist?list=PLypxmOPCOkHV4vnWkQCasSjBOI8ZpkmMY
+	
+	SEMAPHORE - MUTEX - Linux/Unix System Programming -Operating Systems
+	https://www.youtube.com/playlist?list=PL3uLubnzL2Tlbyrr2GFVRE7Azo8FJe-dJ
+
+	Learn Linux/Unix Commands
+	https://www.youtube.com/playlist?list=PL3uLubnzL2TlQs2uYfvSOXnUrkvpYGimY
+
+	ARM 7 - A Complete Learning
+	https://www.youtube.com/playlist?list=PL3uLubnzL2TmQOat3lRUgbQJrq9rgIjJb
+
+	C++ Programming in Linux Tutorial - ShellWave
+	https://www.youtube.com/playlist?list=PLypxmOPCOkHXJqwYuIpLtG4mXxRJBacqx
+
+	C++ Programming - VSCode - Neso Academy
+	https://www.youtube.com/playlist?list=PLBlnK6fEyqRh6isJ01MBnbNpV3ZsktSyS
+
+	Internet of Things (IoT) - MQTT, Bluetooth
+	https://www.youtube.com/playlist?list=PL3uLubnzL2Tm5PAw88N1jR9MLTJpuPEnX1
+
+	https://www.youtube.com/c/ShriramVasudevan/playlists
+
+	Python 2.7 Programming Tutorials - thenewboston
+	https://www.youtube.com/playlist?list=PLEA1FEF17E1E5C0DA
+
+	Python 3.4 Programming Tutorials - thenewboston
+	https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+
+	WiFi Wireless Security Tutorials Playlist - thenewboston
+	https://www.youtube.com/playlist?list=PL6gx4Cwl9DGC04FAovs0lswXTPXeomORn
+	
+	Android App Development New Boston
+	https://www.youtube.com/playlist?list=PL2F07DBCDCC01493A
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+============================================================================================================================================================================================================================ 
+	
+	BOOTLOADER
+	==========
+	
+	Understanding embedded-system-boot techniques	https://www.eetimes.com/understanding-embedded-system-boot-techniques/
+	
+	Fundamentals of Booting for Embedded Processors https://www.embedded.com/fundamentals-of-booting-for-embedded-processors/
+	
+	How to Develop Your Own Bootloader: A Comprehensive Tutorial https://www.apriorit.com/dev-blog/66-develop-boot-loader
+	
+	Bootloader Design for Microcontrollers	https://www.beningo.com/wp-content/uploads/images/Papers/bootloader_design_for_microcontrollers_in_embedded_systems%20.pdf
+	
+	ESDT: Epidsode 1 - Introduction to Bootloader Design for Microcontrollers		https://www.youtube.com/watch?v=fPDOMTqdfsY
+	
+	BIOS Boot Specification 	https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf
+	
+	Hooking Windows API - Technics of hooking API functions on Windows	http://users.cis.fiu.edu/~weijp/Jinpeng_Homepage_files/CBJ-2004-40.pdf
+	
+	Using Arm ROM Bootloader on Keystone II Devices		https://www.ti.com/lit/an/spracn3/spracn3.pdf?ts=1628493875295&ref_url=https%253A%252F%252Fwww.google.com%252F
+	
+	Understanding What is a Flash Bootloader and the Nuances of an Automotive ECU Re-programming	https://www.embitel.com/blog/embedded-blog/what-is-flash-bootloader-and-nuances-of-an-automotive-ecu-re-programming
+	
+	
+============================================================================================================================================================================================================================ 
+	
+	
+	
+	From Zero to main(): How to Write a Bootloader from Scratch		https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch
+																	https://interrupt.memfault.com/tag/zero-to-main/
+																	
+	Writing A Bootloader	https://www.codeproject.com/Articles/376725/Writing-A-Bootloader
+	
+	How To Write a Simple Bootloader For AVR In C language - (Part 35/46)		https://www.engineersgarage.com/how-to-write-a-simple-bootloader-for-avr-in-c-language-part-35-46/
+		https://www.engineersgarage.com/tag/bootloader/			https://www.engineersgarage.com/author/aalfred/page/3/
+		
+	
+	Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C		https://www.youtube.com/watch?v=3brOzLJmeek
+																						https://www.youtube.com/channel/UCY0sQ9hpSR6yZobt1qOv6DA/videos
+	
+	STM32 Bootloader Tutorials		https://embetronicx.com/bootloader-tutorials/
+	
+	ARM: How to Write a Bootloader		https://developer.arm.com/documentation/ka002218/latest
+	
+	What is a Bootloader and when do you need one?		https://www.embeddedrelated.com/thread/4393/what-is-a-bootloader-and-when-do-you-need-one
+	
+	AVR-bootloader		https://github.com/radhoo/AVR-bootloader		https://www.pocketmagic.net/simple-avr-bootloader-tutorial/
+	
+	
+	
+============================================================================================================================================================================================================================
+
+The difference and connection of text, data, bss and rodata segments
+		https://www.programmersought.com/article/14863944425/
+	The .data .bss .rodata section of the MCU memory allocation	
+		https://www.programmersought.com/article/87014557094/
+		
+	text, data and bss: Code and Data Size Explained
+		https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/ 	
+		
+	https://en.wikipedia.org/wiki/Data_segment
+
+		https://www.dsprelated.com/showthread/motoroladsp/2106-1.php
+		
+	PROCESS MEMORY LAYOUT : Embedded C Memory Segments/Sections -> 	https://www.tenouk.com/ModuleZ.html
+	.text/.code	- code
+	.data 		- initialized global / static (local/global)
+	.bss 		- unintialized global / static (local/global)
+	.rodata 	- char strings, const 
+	heap		- dynamic memory allocation (malloc, calloc, realloc, free)
+	stack 		- local (auto)
+		
+	
+============================================================================================================================================================================================================================
+
+	
+Every variable declaration has 3 attributes.
+
+    1. type (int, float, double, char, ...), discussed in Topic 1.
+    2. placement of the declaration
+        Global variables are declared outside of any functions and may, by default, be accessed by any function in the program.
+        Variables declared inside a function (including main()), are accessible to only the function where they are defined.
+    3. storage class The following keywords may be used in a data declaration and have impact on where the variable is stored 
+	in the computer’s memory and on the rules of scope for the variable.
+        auto - the default.
+        extern
+        register
+        static
+	
+	
+Storage Class 		Declaration 			Storage 	Default Initial Value 	Scope 						Lifetime
+auto 			Inside a function/block 	Stack 			Garbage 			Within the function/block 	End of the function/block
+register 		Inside a function/block 	CPU Register 	Garbage 			Within the function/block 	End of the function/block
+static (local) 	Inside a function/block 	.data/.bss *	Zero 				Within the function/block 	program runtime
+static (global) Outside all functions 		.data/.bss *	Zero 				Global 						program runtime
+extern 			Outside all functions 		Data segment	Zero 				Entire the file and other 	program runtime
+																				files where the variable 
+																				is declared as extern
+																				
+* .data(initialized)/.bss(uninitialized) global & static variables
+ 																				
+	https://www.tenouk.com/ModuleZ.html	
+	http://faculty.salina.k-state.edu/tim/CMST302/study_guide/topic4/storage_class.html
+	https://www.guru99.com/c-storage-classes.html
+	https://www.geeksforgeeks.org/storage-classes-in-c/
+
+	https://stackoverflow.com/questions/3684760/where-are-the-local-global-static-auto-register-extern-const-volatile-var
+	
+	
+	
+auto variables are always local and are stored on the stack.
+
+register modifier tells the compiler to do its best to keep the variable in a register if at all possible. 
+Otherwise it is stored on the stack.
+
+extern variables are stored in the data segment. The extern modifier tells the compiler that a 
+different compilation unit is actually declaring the variable, so don't create another instance of it 
+or there will be a name collision at link time.
+
+const variables can be stored either on the stack or a readonly data segment depending on 
+whether they are auto or static. However, if the compiler can determine that they cannot 
+be referenced from a different compilation unit, or that your code is not using 
+the address of the const variable, it is free to optimize it away 
+(each reference can be replaced by the constant value). In that case it's not stored anywhere.
+
+volatile modifier tells the compiler that the value of a variable may change 
+at anytime from external influences (usually hardware) so it should not try to 
+optimize away any reloads from memory into a register when that variable is referenced. 
+		
+
+AUTO
+----
+    This is the default for variables. The auto keyword is seldom used.
+    Auto variables are placed on the stack. So once the function that uses the variable exits, 
+	the variable goes away and that memory location is available for other functions to use.
+    Each function invocations sets up new automatic variables on the stack. 
+	The function is only aware of its own automatic variables, and can only access other 
+	function’s automatic variables through the use of pointers.
+
+		
+EXTERN
+------
+	https://www.cprogramming.com/declare_vs_define.html
+First File: main.c
+
+#include <stdio.h>
+extern i;
+main() 
+{
+   printf("value of the external integer is = %d\n", i);
+   return 0;
+}
+
+Second File: original.c
+
+#include <stdio.h>
+int i=48;
+
+Result:  value of the external integer is = 48
+
+
+When a variable is defined outside of any function (including main). 
+It is a global variable and is placed in either the data or bss sections of memory.
+
+Any function in a the file where it is declared has access to a global variable.
+
+Using the keyword extern in another file gives access to the variable in the second file. 
+If the extern declaration is inside a function, only that function has access to the global variable. 
+If it is outside of any function, then all functions in the file have access to the variable.
+
+The extern statement does not declare a variable, but just references a global variable which was declared in another file.
+
+---------------------------------------
+/* File1.c: */
+int Global;
+
+extern void f( int ); /* functions as well as variables can be extern */
+extern void g( int );
+int main(void)
+{
+   ....
+   f( i );
+   g( j );
+}
+---------------------------------------
+/* File2.c  */
+extern int Global;  /* now f() and g() have access to Global */
+void f( int );
+void g( int );
+
+void f( int i )
+{
+   ....
+}
+
+void g( int j )
+{
+   ....
+}
+---------------------------------------
+
+In short, we can say: 
+
+    A declaration can be done any number of times but definition only once.
+    the extern keyword is used to extend the visibility of variables/functions.
+    Since functions are visible throughout the program by default, the use of extern is not needed in function declarations or definitions. Its use is implicit.
+    When extern is used with a variable, it’s only declared, not defined.
+    As an exception, when an extern variable is declared with initialization, it is taken as the definition of the variable as well.
+
+
+	extern keyword
+	https://www.tutorialandexample.com/extern-keyword-in-c/
+	https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	What happens when following is compiled??
+	inside main.c file:
+	static int a;
+
+	inside other.c file:
+	extern int a;
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	
+	
+============================================================================================================================================================================================================================
  
- TCS NQT Coding Questions and Answers
- https://www.faceprep.in/tcs/tcs-nqt-coding-questions/
+REGISTER
+--------
+
+    In addition to the computer’s main memory, a limited amount of memory exists on the CPU itself. 
+	The computer can access register memory much faster than main memory.
+    The keyword register is an advisory request to store a variable in one of the CPU’s registers.
+    Advisory means that the compiler decided if this request is honored. If you ask for a large number 
+	of variables to be stored in registers, then it is not possible for the compiler to honor your request.
+	
+    'register' should be used sparing and only for variables that are accessed many times in a tight loop. 
+	It is best to use register variables in small functions, so the variable is in use for a short amount of time.
+
+
+
+#include <stdio.h> /* function declaration */
+main() 
+{	register int  weight;
+	int *ptr=&weight ; /*it produces an error when the compilation occurs ,we cannot get a memory location when dealing with CPU register*/
+}
+
+OUTPUT: error: address of register variable 'weight' requested
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+STATIC 
+------
+
+The keyword static is used in two ways.
+
+    A static variable declared inside a function is placed in the data or bss portion of memory 
+	and can retain it’s value between calls to the same function. 
+	In this way it is similar to a global variable, except it is only used in one function. 
+	The restriction on the scope of static variables is a compiler implemented restriction; 
+	being that, an assembly language program could easily access any data stored in either the data or bss sections of memory.
+
+    A static variable declared as a global variable is also called a static external variable. 
+	Here the keyword static produces the opposite results as the extern keyword. 
+	The variable is global to the file where it is declared, but may not be referenced in any other files. 
+	Thus the keyword static can produce a form of data hiding.
+
+    Static variables provide a simple means to hide information in a C program. 
+	In other words, a variable may need to be persistent or global, but we may not want other programmers 
+	to know much about this variable - least they try to change it.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-CLOCK STRETCHING
+ Storage classes in C, summed up:
 
-BUS ARBITRATION
+    A storage class in C is used to represent additional information about a variable.
+    Storage class represents the scope and lifespan of a variable.
+    It also tells who can access a variable and from where.
+    Auto, extern, register, static are the four different storage classes in a C program.
+     
+    auto is used for a local variable defined within a block or function
+    register is used to store the variable in CPU registers rather than memory location for quick access.
+    static is used for both global and local variables for persistence and data hiding.
+    extern is used for data sharing between multiple C files.
 
-INERRUPT HANDLER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	LITTLE-ENDIAN VS BIG-ENDIAN
+	
+//CODE TO CHECK ENDIAN-NESS OF SYSTEM
+#include <stdio.h>
+#include <stdint.h> // uint16_t uint8_t https://www.cplusplus.com/reference/cstdint/
 
-BOOTING SEQ
+int endianCheck() // IF TRUE, IT'S LITTLE-ENDIAN (LITTLE=1|BIG=0)
+{
+//	uint16_t i = 1;	/* 	i = 0x0001 
+//						In big endian, stored as : 0x0001 
+//						In little endian, stored as : 0x0100 */
+//	uint8_t* x = (uint8_t*)&i; /* x points to the first byte of i */
+//	(*x)
+//	? printf("\n\tLittle Endian\n") /* First byte is 0x01 */
+//	: printf("\n\tBig Endian\n");	/* First byte is 0x00 */
+	
+	unsigned int i = 1;
+	char* x = (char*)&i; 
+	return (int)(*x);	 // IF TRUE, IT'S LITTLE-ENDIAN (LITTLE=1|BIG=0)
+}	
+ 
+int main(int argc, char const *argv[])
+{
+	//printf("\n ENDIAN (BIG=0|LITTLE=1) : %d ", endianCheck());
+	
+	(endianCheck())? printf("\n LITTLE ENDIAN") : printf("\n BIG ENDIAN"); // IF TRUE, IT'S LITTLE-ENDIAN (LITTLE=1|BIG=0)
+	
+}
 
-EXPLAIN I2C, UART
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	Writing endian-independent code in C
+	https://developer.ibm.com/technologies/systems/articles/au-endianc/
+	https://embetronicx.com/tutorials/p_language/c/little-endian-and-big-endian/
+	https://www.geeksforgeeks.org/little-and-big-endian-mystery/
+	https://cs-fundamentals.com/tech-interview/c/c-program-to-check-little-and-big-endian-architecture
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C / C++ Programming Character Strings
+	https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/CharacterStrings.html
+	https://www.geeksforgeeks.org/storage-for-strings-in-c/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+		
+Set, toggle and clear 5th bit in C // https://www.codesdope.com/blog/article/set-toggle-and-clear-a-bit-in-c/
+	x|= (1<<5);
+	x^= (1<<5);
+	x&=~(1<<5);
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Argument	
+When a function is called, the values that are passed during the call are called as arguments.	
+
+Parameter
+The values which are defined at the time of the function prototype or definition of the function are called as parameters.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DECLARATION -> MEMORY NOT ALLOCATED, A VARIABLE/FUNCTION CAN BE DECLARED ANY NUMBER OF TIMES
+===================================================================================
+These are declarations:
+extern int bar;
+
+extern int g(int, int);
+
+double f(int, double); // extern can be omitted for function declarations
+
+class foo; // no extern allowed for type declarations
+
+A definition actually instantiates/implements this identifier. 
+It's what the linker needs in order to link references to those entities. 
+
+
+DEFINITION -> MEMORY ALLOCATED, A VARIABLE/FUNCTION CAN BE DEFINED ONLY ONCE
+============================================================================
+These are definitions corresponding to the above declarations:
+int bar;
+
+int g(int lhs, int rhs) 
+{return lhs*rhs;
+}
+
+double f(int i, double d) 
+{return i+d;
+}
+
+class foo {};
+
+A definition can be used in the place of a declaration.
+A declaration introduces an identifier and describes its type, be it a type, object, or function. 
+A declaration is what the compiler needs to accept references to that identifier. 
+
+An identifier can be declared as often as you want. 
+Thus, the following is legal in C and C++:
+double f(int, double);
+double f(int, double);
+extern double f(int, double); // the same as the two above
+extern double f(int, double);
+
+However, it must be defined exactly once. 
+If you forget to define something that's been declared and referenced somewhere, 
+then the linker doesn't know what to link references to and complains about a missing symbols. 
+If you define something more than once, then the linker doesn't know which of 
+the definitions to link references to and complains about duplicated symbols.
+
+Since the debate what is a class declaration vs. a class definition in C++ keeps coming up 
+(in answers and comments to other questions) , I'll paste a quote from the C++ standard here.
+At 3.1/2, C++03 says:
+
+A declaration is a definition unless it [...] is a class name declaration [...].
+
+3.1/3 then gives a few examples. Amongst them:
+
+[Example: [...]
+struct S { int a; int b; }; // defines S, S::a, and S::b [...]
+struct S; // declares S
+—end example
+To sum it up: The C++ standard considers struct x; to be a declaration and struct x {}; a definition. 
+(In other words, "forward declaration" a misnomer, since there are no other forms of class declarations in C++.)
+
+
+What is the difference between a definition and a declaration?
+	https://www.cprogramming.com/declare_vs_define.html
+	https://docs.microsoft.com/en-us/cpp/cpp/declarations-and-definitions-cpp
+	https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration
+	https://www.geeksforgeeks.org/difference-between-definition-and-declaration/
+
+
+============================================================================================================================================================================================================================	
+
+
+How does free() function know how much memory to free given just a pointer?
+	https://www.geeksforgeeks.org/g-fact-88/
+Following is the most common way to store size of memory so that free() knows the size of memory to be deallocated.
+When memory allocation is done, the actual heap space allocated is one word larger than the requested memory. 
+The extra word is used to store the size of the allocation and is later used by free( )
+	http://www.cs.cmu.edu/afs/cs/academic/class/15213-f10/www/lectures/17-allocation-basic.pptx
+	http://www.cs.cmu.edu/afs/cs/academic/class/15213-f10/www/lectures/
+	http://en.wikipedia.org/wiki/Malloc
+	
+	int* p = (int*)malloc   (n*sizeof(int));
+	int* p = (int*)calloc   (n,sizeof(int)); 	
+	int* p = (int*)realloc(p,n*sizeof(int)); // n*sizeof(int) is the total size allocated after realloc i.e. previous + new allocation  
+
+============================================================================================================================================================================================================================	
+
+POINTER DECLATION DECODING	https://cdecl.org/
+==============================================
+
+When there is a choice, always favor [] and () over *.
+The first rule simply states that, locate the variable that is being declared 
+and start deciphering the declaration from it, 
+
+For second rule, if * precedes the identifier and [] or () follows it, 
+then the identifier represents an array or function (respectively), not a pointer.
+
+RIGHT TO LEFT CLOCKWISE ROTATION RULE: GOING CLOCK-WISE, STARTING FROM RIGHT OF THE VARIABLE .
+
+int i;                  i is an int
+int *i;                 i is a pointer to an int
+int **i;                i is a pointer to a pointer to an int
+
+int *(*i)();            i is a pointer to a function returning a pointer to int
+int *(*i[])();          i is an array of pointers to functions returning pointers to an int
+
+int *i[5];              i is an array of 5 pointers to int
+int (*i)[5];            i is a pointer to an array of 5 ints
+
+int *i();               i is a function returning a pointer to an int
+int (*i)();             i is a pointer to a function returning int
+
+int *(*(*i)())[5]       i is a pointer to a function returning a pointer to an array of 5 pointers to an int
+
+char *y[5]; // array of 5 char pointers
+
+char*  x;   //char*    (x);		x is a char pointer
+char* *x;   //char*   (*x); 	x is a pointer to a char pointer
+char***x;   //char* (*(*x));	x is a pointer to a pointer to a char pointer
+
+char* x[5];  //char*     (x[2]);    x is an array of 2 char pointers 
+char* *y[3]; //char*   (*(y[3])); 	y is an array of 3 pointers to char pointer  
+char* **z[4];//char* (*(*(z[4]))); 	z is an array of 4 pointers to pointer to char pointer
+
+volatile unsigned char * const regtr; // regtr is a const pointer to a volatile unsigned char  
+
+int *(*a[5])(char); // a is an array of 5 pointers to a functions taking (char) argument & returning int pointer   
+
+char ** const * const x; // x is const pointer to const pointer to char pointer
+
+void (*pf) (int); // pf is a pointer to function that expects an int argument and returns nothing.
+
+int (*func_ptr[3])();   // func_ptr is an array of 3 pointers to functions returning int 
+int * (*func_ptr[3])(); // func_ptr is an array of 3 pointers to functions returning int pointer 
+
+int (*(*foo)(void ))[3] // foo is a pointer to a function (taking no argument) returning a pointer to an array of 3 ints 
+const int (volatile * bar)[64]; // bar is a volatile pointer to an array of 64 const ints 
+
+(double (^)(int, long long))foo; // foo is cast as a function taking (int, long long) arguments and returning double 
+
+	https://stackoverflow.com/questions/29591245/how-to-decipher-complex-pointer-declarations-in-c
+	
+	
+
+	
+============================================================================================================================================================================================================================	
+	
+	Size of Pointer Variables - pointer variables, irrespective of their data type, consume 4 bytes of data in the memory.
+	https://technotip.com/7944/c-program-to-find-size-of-pointer-variables/
+	https://technotip.com/6378/c-programming-interview-viva-qa-list/
+	https://technotip.com/6086/c-programming-beginner-to-advance-to-expert/
+	Note: “But the number of bytes allocated for different data types and pointer variables are machine dependent. 16-bit, 32-bit, 64-bit computers allocate different bytes of memory. But pointer variables of any data type will always have same number of bytes occupied in the memory. For Example, if the computer allocates 2 bytes for pointer variable, then all the pointer variables, irrespective of their data type, will occupy 2 bytes in the memory.”
+
+	A pointer variable of type float holds only the address of floating point variable. A char pointer variable holds only the address of char type variable. But still the address of all these type of pointer variable is number. Addresses are always numbers and it can’t be a character, a string or real/floating/double numbers.
+
+	
+	#include<stdio.h>  
+  
+	int main()  
+	{  
+		printf("Size of int pointer = %d bytes.\n", sizeof(int*));  
+		printf("Size of char pointer = %d bytes.\n", sizeof(char*));  
+		printf("Size of float pointer = %d bytes.\n", sizeof(float*));  
+		printf("Size of double pointer = %d bytes.\n", sizeof(double*));  
+		printf("Size of long int pointer = %d bytes.\n", sizeof(long*));  
+		printf("Size of short int pointer = %d bytes.\n", sizeof(short*));  
+	  
+		return 0;  
+	}  
+	
+		nibble		byte 	half-word 		word 		double word 
+bits	  4		 	 8		    16  		 32			    64	
+bytes	  -			 1			 2			  4				 8	 		
+	
+	SIZE OF POINTER TO ANY DATATYPE = SIZE OF ADDRESS BUS = WORD SIZE = 32 BITS (SIZE OF INT) 
+	
+Size of int pointer = 4 bytes.
+Size of char pointer = 4 bytes.
+Size of float pointer = 4 bytes.
+Size of double pointer = 4 bytes.
+Size of long int pointer = 4 bytes.
+Size of short int pointer = 4 bytes.
+
+============================================================================================================================================================================================================================
+
+	SEGMENTATION FAULT:
+	https://stackoverflow.com/questions/2346806/what-is-a-segmentation-fault
+	https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/
+	
+	CAUSES OF SEG FAULT:
+
+	DEREFERENCING A NULL POINTER (POINTING TO NO VALID MEMORY LOCATION I.E. '\0'), 
+	DEREFERENCING A DANGLING POINTER (PTR TO A VARIABLE THAT HAS GONE OUT OF SCOPE), 
+	DEREFERENCING POINTER TO A FREED MEMORY,
+	WRITING TO A READ-ONLY MEMORY (TRYING TO CHANGE A CHRARACTER STRING -> .rodata segment), 
+	TRYING TO ACCESS AN ARRAY OUT OF BOUNDS
+	
+	
+Segmentation fault is a specific kind of error caused by accessing memory that “does not belong to you.” It’s a helper mechanism that keeps you from corrupting the memory and introducing hard-to-debug memory bugs. Whenever you get a segfault you know you are doing something wrong with memory – accessing a variable that has already been freed, writing to a read-only portion of the memory, etc. Segmentation fault is essentially the same in most languages that let you mess with memory management, there is no principal difference between segfaults in C and C++.
+
+There are many ways to get a segfault, at least in the lower-level languages such as C(++). A common way to get a segfault is to dereference a null pointer:
+
+int *p = NULL;
+*p = 1;
+
+Another segfault happens when you try to write to a portion of memory that was marked as read-only:
+
+char *str = "Foo"; // Compiler marks the constant string as read-only
+*str = 'b'; // Which means this is illegal and results in a segfault
+
+
+
+A dangling pointer is a (non-NULL) pointer which points to 
+a variable that has gone out of scope, 
+or memory that has already been freed (unallocated memory).
+
+Dangling pointer points to a thing that does not exist anymore, like here:
+
+char *p = NULL;
+{
+    char c;
+    p = &c;
+}
+
+printf(" c = %c", *p);  // Now p is dangling
+
+The pointer p dangles because it points to the character variable c that ceased to exist after the block ended. And when you try to dereference dangling pointer (like *p='A'), you would probably get a segfault.
+	
+
+WHAT IS MEMORY LEAK? HOW TO DETECT & PREVENT MEMORY LEAKS? WHICH LINUX COMMAND HELPS IN FINDIND MEMORY LEAKS IN A PROGRAM?
+
+
+int arr[10]={0};
+
+int* p = arr;
+
+*(p+20)++; // SEGMENTATION FAULT - TRYING TO ACCESS AN ARRAY OUT OF BOUNDS
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	MEMORY COPY - MEMCPY // https://www.cplusplus.com/reference/cstring/memcpy/
+
+void * memcpy ( void * destination, const void * source, size_t num ); // https://www.ibm.com/docs/en/i/7.1?topic=functions-memcpy-copy-bytes
+
+#include <string.h>
+#include <stdio.h>
+ 
+#define MAX_LEN 80
+ 
+char source[ MAX_LEN ] = "This is the source string";
+char target[ MAX_LEN ] = "This is the target string";
+ 
+int main(void)
+{
+  printf( "Before memcpy, target is \"%s\"\n", target );
+  memcpy( target, source, sizeof(source));
+  printf( "After memcpy, target becomes \"%s\"\n", target );
+}
+ 
+/*********************  Expected output:  ************************
+ 
+Before memcpy, target is "This is the target string"
+After memcpy, target becomes "This is the source string"
+*/
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+char a[10] = "abcdefgh";
+
+char* p = a;
+
+*(a+5) = 'G'; // POSSIBLE ??
+
+p = "RSTUVWXYZ"; // POSSIBLE ?? COMPILATION ERROR - TRYING TO CHANGE IMMUTABLE ADDRESS (IN .rodata SECTION)
+
+memcpy(p, a, 15); // POSSIBLE ?? SEGMENTATION FAULT - TRYING TO ACCESS AN ARRAY OUT OF BOUNDS
+
+*(a+15) = 'M'; // POSSIBLE ??
+	
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+const qualifier
+
+	If the keyword const is used when declaring a variable, then we restrict the variable from being changed after its initial definition. 
+	
+	const is not a storage class keyword because it does not affect the scope or memory location of the variable.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+const volatile int i = 0; // IS THIS STATEMENT VALID? CAN 'volatile' BE 'const'?? 
+	
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+	
+	Diff between Arrays & Pointers.
+
+    Can we declare a function inside a structure? is it possible??
+
+    Diff between Union & Structure.
+	
+	Diff between Structure & Class
+	
+	Difference between: 
+	
+	MACRO vs inline function
+	
+	typedef vs #define
+	
+	pointer vs reference
+	
+	create a #define macro for 'sizeof' operator
+	
+	is recursion possible in inline function??
+
+    Arrays of function.
+	
+	can C program compile & run without main()?
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	union t
+	{	char a;
+		int b;
+		char c;
+		int d;
+	};
+	
+	What is the size of 't'?
+	
+	struct s
+	{	char a;
+		int b;
+		char c;
+		int d;
+	};
+	
+	What is the size of 's'? How can be memory required by 's' be optimized?
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	LINKED LIST - NODES MAY BE STORED AT DIFFERENT LOCATIONS, UNLIKE AN ARRAY WHERE THEY ARE STORED IN CONTIGUOUS MEMORY LOCATIONS
+	
+	LINKED LIST VS ARRAY
+	PROS:
+	SIZE CAN BE CHANGED DYNAMICALLY
+	INSERTION & DELETION OF NODES IS FASTER THAN FOR ARRAY
+	
+	CONS:
+	ONLY SEQUENTIAL ACCESS
+	MORE MEORY REQ. PER NODE (TO STORE THE POINTERS)
+	
+============================================================================================================================================================================================================================
+
+	file operations -> file open, close, read, write -> fopen, fseek, EOF    
+ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	C String functions : https://www.cplusplus.com/reference/cstring/
+	====================
+	<cstring> (string.h)
+	
+strcmp
+strchr
+strrchr
+	
+	
+	
+strstr	https://www.codevscolor.com/c-strstr-example
+		char * strstr ( char * firstStr, const char * secondStr );
+			firstStr is the string to scanned
+			secondStr is the string to search in firstStr.
+    It returns the pointer to the first occurrence place in firstStr of secondStr. 
+	If secondStr is not found in firstStr, it returns one null pointer (NULL = 0).
+	char* str1 = "Hello World!!";
+	char str2[] = "World";
+	char* str3 = "Universe";
+	printf("\n \'%s\' in \'%s\' is located in %u memory address", str2, str1, strstr(str1, str2));
+	printf("\n \'%s\' in \'%s\' is located in %u memory address", str3, str1, strstr(str1, str3));
 
+
+
+strrev
+	
+	
+	
+strtok	
+	char * strtok ( char * str, const char * delimiters );
+	str
+		C string to truncate. Notice that this string is modified 
+		by being broken into smaller strings (tokens).
+		Alternativelly, a null pointer may be specified, in which case the function 
+		continues scanning where a previous successful call to the function ended.
+	delimiters
+		C string containing the delimiter characters.
+		These can be different from one call to another. 
+	If a token is found, it returns a pointer to the beginning of the token.
+	Otherwise, it returns a null pointer.
+	A null pointer is always returned when the end of the string 
+	(i.e., a null character) is reached in the string being scanned.
+	https://www.cplusplus.com/reference/cstring/strtok/
+	https://www.codevscolor.com/c-split-string-strtok
+	char str[] = "one,two-three:four+five";
+    char* delim = ",-:+";
+    char* tokenPtr = strtok(str, delim);
+
+    while (tokenPtr != NULL)
+    {   printf("\n\t%s\n", tokenPtr);
+        tokenPtr = strtok(NULL, delim);
+    }
+	
+strtok_r (reentant)	https://www.geeksforgeeks.org/strtok-strtok_r-functions-c-examples/
+						https://man7.org/linux/man-pages/man3/strtok_r.3.html
+						
+============================================================================================================================================================================================================================	
+		
+	QUALCOMM
+	========	
+		
+// Write a C program to find second smallest number in a single pass:	
+int secondSmallest()
+{
+	int m, m2, i;
+
+	int A[N] = {1, 3, 4, -1, 5, -4, -2};
+	
+	m=A[0]; m2;
+	
+	for(i=1; i<N; i++)
+	{	if(A[i] < m) // use '>' for 2nd largest
+		{ 	m2 = m;
+			m = A[i];	
+		}
+		else if(A[i] < m2) // use '>' for 2nd largest
+		{	m2 = A[i];
+		}
+	}
+	printf("\nSmallest 	= %d\n", m);
+	printf("2nd smallest 	= %d\n", m2);
+	return m2;
+} 
+
+//A[i]	= 		 			-2
+// m 	=  1	 -1	 	-4	-4
+// m2 	=  0  	  1 	 -1	-2
+	
+============================================================================================================================================================================================================================	
+
+
+	WIPRO LINUX C OS QTNS - SHANTANU BANERJEE (APMEA - iDEAS-ER&D)
+	
+	detect/debug segmentation fault in main.c -> CORE DUMP
+	
+	Debugging Segmentation Faults and Pointer Problems
+	https://www.cprogramming.com/debugging/segfaults.html
+	
+	How to debug a HardFault on an ARM Cortex-M MCU
+	https://interrupt.memfault.com/blog/cortex-m-fault-debug
+	https://eng.fitbit.com/the-tower-of-terror-a-bug-mystery/
+
+	memory leak analysis tools -> Valgrind -> Memcheck -> how will you find memory leak in 1GB source code in 1 hour? 
+	Memcheck: a memory error detector
+	https://www.cprogramming.com/debugging/valgrind.html
+	https://www.valgrind.org/docs/manual/mc-manual.html
+	
+	Using Valgrind to Find Memory Leaks and Invalid Memory Use
+	https://www.cprogramming.com/debugging/valgrind.html
+	
+	Advanced Memory Management: Dynamic Allocation
+	https://www.cprogramming.com/tutorial/dynamic_memory_allocation.html
+	Memory and Resource Leak Detection Tools
+	https://www.ics.com/blog/explore-memory-and-resource-leak-detection-tools
+	
+	what is cmake? what is it used for? how does it differ from makefile
+	
+	linux commands to add static library, header files to compile c code -> gcc compiler tools
+
+	gdb
+
+	kernel modules?
+
+	ipc
+
+	
+
+
+	malloc calloc
+
+	stack size - overflow detection / prevention
+
+	multithreading
+
+	task / process / thread
+
+	mutex semaphore
+
+	deadlock
+
+	LINUX/Raspberry Pi : custom kernel config - boot image configuration, bootloader, root file system, 
+
+	I2C - structure padding 
+
+	linked list, doubled linked list
+
+	Little-endian vs Big-Endian which is better/more compact?
+
+	Memory paging?
+
+	Virtual Memory Management/Location in Linux
+
+	Memory Swap
+
+	Scheduling Policies - Round-Robin
+
+	OOPs concepts: Inheritance, Types Of Polymorphism?
+
+============================================================================================================================================================================================================================
+			
 	WIPRO - C - topics
 
 	C Preprocessor  
@@ -40,6 +1018,100 @@ EXPLAIN I2C, UART
 	C Memory Allocation
 	C Variables n Scope
 	C Pointers
+============================================================================================================================================================================================================================
+	
+	WIPRO CAN LINUX C++ OS QTNS - KAUSHIK KARMAKAR (iDEAS-R&D Europe)
+	
+	struct vs class?
+	
+	constructor vs destructor 
+	
+	can destructor be overloaded?
+	
+	constructor vs copy constructor .. syntax of copy constructor?
+	
+	how to use static variable/member of class?
+
+	what is an abstract class? 
+
+	function overloading vs overridding?
+
+	mutable keyword in C++? // https://www.geeksforgeeks.org/c-mutable-keyword/
+
+	diamond problem in C++??
+	
+	hybrid polymorphism ??
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+WIPRO - TRANE TECHNOLOGIES - AUTOMOTIVE, CAN
+
+JD:
+
+·  Has worked hands on in coding and designing solutions in  an embedded systems environment.
+
+·  Experience in developing Multi-Threaded Applications in an RTOS .
+
+·  worked extensively in creating modular software using C and C++.
+
+·  Comfortable with reading hardware schematics.
+
+·  Familiar with interfaces like CAN, RS232, I2C, SPI
+
+·  Familiar with real time system concepts.
+
+·  good knowledge of embedded tools like emulators, linkers, makefiles etc is essential.
+
+·  should have at least one year of experience designing or architecting object oriented modules.
+
+·  Experience in writing multithread software and class libraries is desired.
+
+·  Experience in Standard Automotive communication protocols like J1939
+
+
+Topics to prepare:
+
+Questions:
+
+    Linux IPC Mechanism & Different types of mechanisms in that.
+	
+	Interprocess Communication Mechanisms
+	https://tldp.org/LDP/tlk/ipc/ipc.html
+	https://opensource.com/article/19/4/interprocess-communication-linux-storage
+	https://www.emblogic.com/blog/03/understanding-interprocess-communication-in-linux-introduction-to-interprocess-communication/
+
+    Diff between Shared memory and msgq.
+
+    what is size of data(max) we can share in the msgq.
+
+    Multithreading.
+
+    Socket Programming.
+	
+    What Linux system interrupts do you know?
+
+Concepts
+
+1 Storage class - static , extern, auto,register
+
+2 Linux IPC Mechanism
+
+3 Call back function
+
+4 C based Interview Questions
+
+5 structure padding 
+
+6 Pointers related concepts
+
+7 Mutex, Semaphore
+
+8 TCP communication - Socket creation
+
+9 C Typecasting 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //WIPRO QUESTION
@@ -140,6 +1212,75 @@ int main()
     return 0;
 }
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	WESTERN DIGITAL INTERVIEW - PENDRIVE, HDD, SSD
+
+// https://nvmexpress.org/specifications/
+// NVMe, PCIe, SATA, Synopsis ARC 600/700/ES/EM, RISC, ASIC, JTAG, NAND Memory, PARALLELISM 
+
+/*
+HOW INTERRUPTS WORKS? IVT, ISR, 
+
+CAN ISR HAVE A RETURN VALUE?
+
+WHAT IS INTERRUPT LATENCY?
+
+WHAT HAPPENS WHEN A HIGHER PRIORITY INTERRUPT OCCURS INSIDE AN ISR WHICH HAS DISABLES GLOBAL INTERRUPTS? WILL THAT HIGHER PRIORITY INTERRUPT BE MISSED?
+
+WHAT IS A REENTRANT FUNCTION?
+
+CAN THERE BE A STATIC VARIABLE INSIDE A REENTRANT FUNCTION?
+
+CAN YOU PUT A BREAK-POINT INSIDE AN ISR?
+
+WHAT IS A WATCHDOG TIMER?
+
+IS AN EXTERN VARIABLE IS DECLARED BUT NOT DEFINED, THEN IS WHICH STAGE OF COMPILATION WILL THERE BE AN ERROR? 
+
+WHAT IS SEGMENTATION FAULT? WHEN DOES IT OCCUR?
+
+IPC COMMUNICATION
+
+BINARY SEMAPHORE VS MUTEX?
+
+WHAT IS BIT ARBITRATION IN I2C BUS?
+
+DANGLING POINTER, NULL POINTER?
+
+CODE TO CHECK IF A NUMBER IS POWER OF TWO OR NOT  
+
+CODE TO CHECK ENDIAN-NESS OF SYSTEM 
+
+FIND MEETING POINT OF TWO LINKED LISTS 
+
+CODE TO PRINT THE MIDDLE NODE OF A LINKED LIST WITHOUT FINDIND OUT/KNOWING THE TOTAL NUMBER OF NODES IN THE LINKED LIST
+
+REMOVE 5TH ELEMENT OF LINKED LIST
+
+REVERSE A NUMBER DEPENDING ON INPUT FORMAT PROVIDED (DEC OR HEX )
+1234 => 4321
+0x1234 => 0x4321
+
+
+POSIX
+
+DEBUGGING -> SRAM, EEPROM, FLASH
+
+const char* location[] = {"left", "center", "right"};
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CLOCK STRETCHING
+
+BUS ARBITRATION
+
+INERRUPT HANDLER
+
+BOOTING SEQ
+
+EXPLAIN I2C, UART
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -316,7 +1457,9 @@ Detect little endian vs big endian?
 
 What is the response time of a JK FF called?
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	
+============================================================================================================================================================================================================================
 	
     Gajanan Jewalikar - Manager at Capgemini India 
 	gajanan.jewalikar@capgemini.com
@@ -324,7 +1467,8 @@ What is the response time of a JK FF called?
 	
 	MCU arch. -> Harvard vs Von Neumann Arch. -> 8051?
 	
-	Embedded C Memory Map -> .text, .data, .bss
+	Embedded C Memory Map -> .text, .data, .bss, .rodata, heap, stack
+	
 	Storage Class - auto, static, register, extern
 	
 	volatile int *p; p?? // ptr to volatile int
@@ -596,88 +1740,64 @@ What is the response time of a JK FF called?
 	.code - 
 	.data - initialized global / static (local)
 	.bss - unintialized global / static (local)
-	
-	stack - local
+	.rodata - char strings, const 
+	heap
+	stack - local (auto)
 	
 ============================================================================================================================================================================================================================
-
-	WIPRO LINUX C OS QTNS - SHANTANU BANERJEE (APMEA - iDEAS-ER&D)
+HEAP VS STACK 
 	
-	detect/debug segmentation fault in main.c -> CORE DUMP
+#include <iostream>
+#include <alloc>
+
+
+void fun1(int * q)
+{
+	int i = 0;
 	
-	Debugging Segmentation Faults and Pointer Problems
-	https://www.cprogramming.com/debugging/segfaults.html
+	cout << "address of i " << &i << endl;
+
+	q = new int;
+
+	cout << "address pointed to by q " << q;
 	
-	How to debug a HardFault on an ARM Cortex-M MCU
-	https://interrupt.memfault.com/blog/cortex-m-fault-debug
-	https://eng.fitbit.com/the-tower-of-terror-a-bug-mystery/
+}
 
-	memory leak analysis tools -> Valgrind -> Memcheck -> how will you find memory leak in 1GB source code in 1 hour? 
-	Memcheck: a memory error detector
-	https://www.cprogramming.com/debugging/valgrind.html
-	https://www.valgrind.org/docs/manual/mc-manual.html
+
+int main ()
+{	
+	int * p = NULL;
 	
-	Using Valgrind to Find Memory Leaks and Invalid Memory Use
-	https://www.cprogramming.com/debugging/valgrind.html
+	fun1(p);
 	
-	Advanced Memory Management: Dynamic Allocation
-	https://www.cprogramming.com/tutorial/dynamic_memory_allocation.html
-	Memory and Resource Leak Detection Tools
-	https://www.ics.com/blog/explore-memory-and-resource-leak-detection-tools
+	delete p;
 	
-	what is cmake? what is it used for? how does it differ from makefile
-	
-	linux commands to add static library, header files to compile c code -> gcc compiler tools
-
-	gdb
-
-	kernel modules?
-
-	ipc
-
-	
-
-
-	malloc calloc
-
-	stack size - overflow detection / prevention
-
-	multithreading
-
-	task / process / thread
-
-	mutex semaphore
-
-	deadlock
-
-	LINUX/Raspberry Pi : custom kernel config - boot image configuration, bootloader, root file system, 
-
-	I2C - structure padding 
-
-	linked list, doubled linked list
-
-	Little-endian vs Big-Endian which is better/more compact?
-
-	Memory paging?
-
-	Virtual Memory Management/Location in Linux
-
-	Memory Swap
-
-	Scheduling Policies - Round-Robin
-
-	OOPs concepts: Inheritance, Types Of Polymorphism?
-
+	return 0;
+}
 ============================================================================================================================================================================================================================
+
+FIND 2ND LARGEST NUMBER	
+
+	https://codeshare.io/
+	https://codeshare.io/5XQDZM
+
+#include <stdio.h>
+
+int main()
+{	int a=0, b=0;
+	int arr[10]={1,4,7,3,8,2,9,5,8,3}; // 9 10 
+  
+  for(int i=0; i<10; i++)
+  {	
+  	if(arr[i]>=a)
+    { a=arr[i];
+    }
+    
+    if(arr[i]>=b && b<a) // a = 9, arr[i] = 8, b = 7
+    { b=arr[i];
+    }
+  }
+ 
+  printf(" largest = %d, 2nd largest = %d", a, b);
+}
 	
-	LINKED LIST - NODES MAY BE STORED AT DIFFERENT LOCATIONS, UNLIKE AN ARRAY WHERE THEY ARE STORED IN CONTIGUOUS MEMORY LOCATIONS
-	
-	LINKED LIST VS ARRAY
-	PROS:
-	SIZE CAN BE CHANGED DYNAMICALLY
-	INSERTION & DELETION OF NODES IS FASTER THAN FOR ARRAY
-	
-	CONS:
-	ONLY SEQUENTIAL ACCESS
-	MORE MEORY REQ. PER NODE (TO STORE THE POINTERS)
-		

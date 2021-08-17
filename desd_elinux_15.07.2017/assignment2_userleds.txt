@@ -1,0 +1,150 @@
+1) assignment 1 - problem 1 :
+
+- following gpio-leds dts node and driver, do the following - this is our custom set-up with our custom driver :
+
+  - we need to use 3 gpio pins - P9.11, P9.13, and P8.13
+
+  - create a parent node with the name gpio-led-control  
+
+  - create 3 children nodes - each node will manage a single led, using a free GPIO pin from 
+    one of the gpio pins available on beaglebone black 
+
+  - complete the parent node's properties and children nodes' properties 
+
+  - now, reboot and do the following on the target 
+
+   ls -l /proc/device-tree/ocp/<custom>
+
+   ls -l /proc/device-tree/ocp/<custom>/compatible
+
+   ls -l /proc/device-tree/ocp/<status>/status
+
+   ls -l /proc/device-tree/ocp/<custom>/<customchild> for all children 
+
+   ....continues
+
+   in addition, also do the following :
+
+   ls -l /sys/bus/platform/devices/<custom>
+
+   ls -l /sys/bus/platform/drivers/<custom>
+
+
+  - in addition, to manage the parent node and children nodes, we need to 
+    write and install a custom platform driver
+
+  - use template code of led_ctrl.c(modified based on leds-gpio.c)  and leds-gpio.c 
+  
+  - based on the children nodes, 3 leds will be controlled using our platform driver
+
+  - to control the gpio pins/leds, we will be using gpiolib APIs, which is provided 
+    gpiolib subsystem 
+
+
+- let us start the implementation :
+
+   - start with modification of device tree - create a parent node and 3 children nodes 
+
+   - next, we write a basic platform driver for our parent node and check the 
+     properties of children nodes - we print the gpios' nos., in our driver code
+               - we are using a pinctrl API to select required pin state
+               - build our local/external module and copy to /tmp folder of nfsrootfs
+               - may need to rebuild dts/dtb files 
+               - no need to rebuild kernel 
+               - reboot target and load our external module 
+               - we should check for errors
+
+               - we should check for our device(s) and driver(s)
+               - we should check for device(s) and driver(s) binding
+               - we should check diagnostics from our driver's probe()
+                      - when we load our driver, our driver is registered with platform 
+                        and device model - device model will scan for unbound devices 
+                        and try to match using device id/compatible string information -
+                        if there are unbound/matching devices, initiate binding - 
+                        as part of this, our driver's probe is invoked with 
+                        corresponding platform_device pointer ??
+
+   ls -l /sys/bus/platform/devices/<custom>
+           - check for our platform devices 
+           - check for our led children (kobjects added for 3 leds)
+           - check for our attributes under led children 
+           - ls -l  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led0/*
+           - ls -l  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led1/*
+           - ls -l  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led2/*
+           - cat  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led?/set_val
+           - echo 0 >  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led?/set_val
+           - echo 1 >  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led?/set_val
+           - echo 5 >  /sys/bus/platform/devices/gpio-leds-cntrl.9/ctrl_led?/set_val
+           - 
+           
+ 
+
+   ls -l /sys/bus/platform/drivers/<custom>
+                  
+               - if we check the pinmux settings for our gpio pins before loading
+                 our driver module, they will not be updated
+               - once our driver module is loaded, our driver will request 
+                 and select pinctrl state for our gpio pins 
+               - we should also check pinmux setting using 
+
+           cat  /sys/kernel/debug/pinctrl/44e10800.pinmux/pins  | less
+
+   - what next ?? we need to use gpiolib APIs to access gpios corresponding 
+     to children nodes - by this, we can control the leds connected to corresponding 
+     gpio pins ??
+                - we need private objects with a kobject and other required fields
+                - from here, we will using gpiolib APIs to request and manage gpio pins
+   - gpio APIs are exported via gpiolib, which provides interface to gpio subsystem 
+     and chip objects of gpio controllers - this will go all the way till the hw registers 
+
+   - in our probe() method of the platform driver, we must request control over gpios 
+     of our children, using gpio_request()  - refer to <ksrc>/Documentation/gpio.txt
+   - in addition, we must also use gpio_set_direction() API, to set the direction 
+     of gpio pin,in the gpio controller 
+
+   - we must maintain the details of our gpios, in a private object for convenience
+
+   - we can free our gpios, using gpio_free() in remove method 
+
+   - we need to create one kobject per gpio pin/led  - so, we need 3 kobjects 
+
+   - we may add a kset, if we need our own hierarchy - 
+     we may use the hierarchy of our parent device - in our case, we will be 
+     using kobject of the struct device {} object of the struct platform_device{}
+     object of our parent node 
+
+   - for each kobject, we need to create a sysfs file - this sysfs file will 
+     correspond to an attribute of the gpio pin/led - this sysfs file 
+     will be used to turn on and turn off our gpio /led 
+
+   - we need to associate appropriate show/store methods with sysfs file of each gpio pin/led - in 
+     sysfs methods, we may have to use gpio_set_value() and gpio_get_value, appropriately ??
+           - store() will be associated with gpio_set_value()
+           - show() will be associated with gpio_get_value()
+           
+
+   - all kobjects of our gpio pins/leds will be children of kobject of device object of 
+     platform_device object of parent node 
+
+   - once we have added and tested the basic led control, we can add specific sw timer
+     controls, as per our application's requirements ?? 
+
+   - now, refer to samples and complete coding for the above assignment ???
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

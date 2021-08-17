@@ -1,0 +1,256 @@
+
+manipulating user leds on the beaglebone black
+==============================================
+
+- to mount debugfs in embedded linux kernel , do the following :
+
+    mount -t debugfs none /sys/kernel/debug
+
+ - to check pinmux details, use following command :
+
+    cat  /sys/kernel/debug/pinctrl/44e10800.pinmux/pins  | less
+
+
+   note: we need information from system reference manual(SRM) , technical reference manual(TRM)  and  
+         data-sheet of am335x ?? 
+         use the control (pad) registers, processor pin names, and P8/P9 pin names  ???
+
+   note: currently, tftp support is missing in busybox - need to rebuild with tftp support and test the busy box ??
+
+   note: refer to Table 7 of SRM bbb/ element14 for  naming/numbering of user leds 
+         refer to Table 2-7 of data sheet of am335x for processor naming to modes/functions of user-led pins ??
+
+   note: echo 0 >  /proc/sys/kernel/printk, for suppressing kernel diagnostics, if needed  
+
+- gpio-leds/ driver related operations using sysfs in embedded linux, for user-leds :
+
+    //refer to Table.7 of of BBB System reference manual - provides details of user-leds
+    //refer to Figure 15  of BBB System reference manual - provides more details of user-leds
+    //refer to information following Figure 15, in BBB System reference manual
+
+    //leds-gpio driver which manages gpio-leds and its children, 
+    //now controls the children and in addition, exports children's 
+    //properties via sysfs interface 
+    //in this context, parent device node is treated as a platform device 
+    //and children device nodes are treated as per requirements of project and 
+    //this task is handled by driver 
+
+     ls -l  /sys/class/leds/*
+
+     ls -l /sys/class/leds/beaglebone:green:usr0/*
+
+     ls -l /sys/class/leds/beaglebone:green:usr0/brightness
+     ls -l /sys/class/leds/beaglebone:green:usr0/trigger
+     
+
+     cat  /sys/class/leds/beaglebone:green:usr0/trigger   //initially, usr0 led is under the control of 
+                                                           //gpio-leds driver and trigger set to heartbeat
+
+     echo none  >    /sys/class/leds/beaglebone:green:usr0/trigger //now, usr0 is under the control of 
+                                                                   //gpio-leds driver, but trigger is none -  
+                                                                   //using gpio-leds driver, application 
+                                                                   //can control ???
+     echo 0  >    /sys/class/leds/beaglebone:green:usr0/brightness  
+     echo 1  >    /sys/class/leds/beaglebone:green:usr0/brightness  
+
+
+
+- edit / modify device tree source to disable led0 from the group of usr leds - 
+  rebuild dtb, reboot/reload kernel and new dtb - test the usr leds 
+
+   - copy the new dtb as am335x-boneblack_usrled_m1.dtb
+
+
+- edit / modify device tree source to disable led0 and led2 from the group of usr leds - 
+  rebuild dtb, reboot/reload kernel and new dtb - test the usr leds 
+
+- edit / modify device tree source to enable ext_led0 and ext_led2, using 
+  external usr leds connected to free gpio pins on P8 and P9 - refer to 
+  P8/P9 diagrams provided 
+           in P8, pin8   - P8.8 is used 
+           in P9, pin11, - P9.11 is used 
+
+- for our current changes of system leds, we will do the following :
+
+    - let us use P9.11 and P9.13 - refer to gpio layout pdf
+           - as per gpio layout pdf, P9.11 is gpio1_30
+           - as per gpio layout pdf, P9.13 is gpio1_31
+
+    - based on this, spot corresponding gpio pins and naming - the above takes care of this
+    - now, let us look at SRM - in this, we will get more details on processor pins and muxing 
+           
+           - as per SRM table 12, P9.11 is T17 on the processor 
+           - as per SRM table 12, P9.13 is U17 on the processor 
+
+            -as per Processor data-sheet table 2-7, T17 is known as gpmc_wait0 
+            -as per Processor data-sheet table 2-7, U17 is known as gpmc_wpn
+
+            -as per processor TRM table 2-2 provides address map of control module and registers 
+             ,table 9-10, and Table 9-2  for  Control module registers, we need 
+             to add following entries to a new child node of 
+             pinctrl device node :
+
+                   0x70 0xf
+                   0x74 0xf
+
+            - based on the above, create a new pinctrl child node and connect it with 
+              led0's device node of gpio-leds - similarly, repeat for led2's device node 
+            - further, follow details below : 
+
+ note : refer to pinctrl device node(s) of am33xx.dtsi and am335x-bone-common.dtsi for pinctroller  base address details              
+        and register details 
+ 
+    - once done, we need to modify led0's and led2's gpios property - refer to bbb_ksrc_important_files2.txt
+    - once done, we also need to add some more pinctrl children nodes
+      to pinmux controller's device node 
+    - the properties of the newly added pinctrl device nodes 
+      must be for P9.11 and P9.13, as per rules of pinctrl single driver and 
+      generic pinctrl rules  
+    - once the above are done, we need to refer to these children from 
+      our gpio-leds device node 
+    - now, rebuild dts to dtb - update /tftpboot 
+    - also, add diagnistics to leds-gpio.c to printt the gpio pins used for led0,led1,led2,and led3
+    - now, reboot the kernel with new dtb
+    - now, check pinctrl configurations for our 
+      P9.11 and p9.13 
+         cat  /sys/kernel/debug/pinctrl/44e10800.pinmux/pins  | less
+
+    - also, use dmesg to check the gpio pin nos. printed by leds-gpio driver
+
+    - now, check if external led0 is working as expected - for heartbeat of Linux system
+
+    - now, check if external led2 is working as expected - for cpu usage/not in idle thread 
+
+   
+ note: following commands may be used for debugging low-level diagnostic messages shown by oops/panic :
+
+       #arm-linux-gnueabihf-objdump -d -S  <module.ko> | less
+       #arm-linux-gnueabihf-objdump -D -S  <module.ko> | less
+
+       -d means, list all sections 
+       -D means, list code sections
+
+       refer to man  objdump for more details on options  
+
+       using method name in our module and byte offset in our method, 
+       spot the low-level instruction and also, the high-level code associated
+
+
+
+
+- copy the new dtb as am335x-boneblack_usrled_m2.dtb
+          
+
+
+
+
+- /proc/device-tree/*    contains device nodes/other nodes as directories
+
+                         contains properties of device nodes/other nodes as files 
+                         under directories of respective nodes
+
+                         using cat on the files, we can get values of properties 
+                         of various device nodes of interest - can be a place 
+                         to verify and debug device tree/nodes/files settings 
+
+
+   ls -l /proc/device-tree/ocp/gpio-leds
+
+   ls -l /proc/device-tree/ocp/gpio-leds/compatible
+
+   ls -l /proc/device-tree/ocp/gpio-leds/status
+
+   ls -l /proc/device-tree/ocp/gpio-leds/led1
+
+   ....continues 
+
+   in addition, also do the following : 
+
+   ls -l /sys/bus/platform/devices/*
+
+   ls -l /sys/bus/platform/drivers/* 
+
+
+
+
+   based on the above, get the information from chosen node ???
+
+   ls -l /proc/device-tree//memory 
+   cat   /proc/device-tree/memory/device_type
+   cat   /proc/device-tree/memory/reg 
+  
+   note : we may use  hexdump  to interpret data, if needed 
+   note : we can copy data to host and interpret         
+
+   ls -l /proc/device-tree/chosen/bootargs
+
+
+   based on the above, find the total physical memory of the SoC 
+
+
+   ls -l /proc/device-tree/compatible 
+
+
+   ls -l  /proc/device-tree/*
+
+   ls -l  /proc/device-tree/ocp/*
+
+   ls -l /sys/bus/platform/devices/*   //identify a few devices which were created due to 
+                                       //our device nodes ???
+                                       //in addition, also identify associated drivers 
+                                       //for the devices ???
+
+
+echo  BB-UART2  >   /sys/devices/bone_capemgr.9/slots 
+echo  BB-I2C1   >   /sys/devices/bone_capemgr.9/slots 
+
+stty -F /dev/ttyO1  9600 raw
+stty -F /dev/ttyO2  9600 raw
+
+cat /dev/tty02&
+
+
+echo "testing from UART1 to UART2" > /dev/ttyO1
+
+ls  -l /sys/bus/platform/drivers/omap_uart/
+
+
+44e09000.serial -> ../../../../devices/ocp.3/44e09000.serial
+
+
+48024000.serial -> ../../../../devices/ocp.3/48024000.serial
+
+
+481a8000.serial -> ../../../../devices/ocp.3/481a8000.serial
+
+
+ls -l /sys/devices/ocp.3/44e09000.serial/
+
+
+
+lecture : custom leds, custom device tree nodes, and custom device driver 
+=========================================================================
+
+
+
+
+- refer to the following files :
+
+
+
+   include/linux/of_gpio.h
+
+
+   drivers/leds/leds-gpio.c
+
+
+   Documentation/devicetree/bindings/leds/leds-gpio.txt
+
+   Documentation/devicetree/bindings/leds/common.txt
+
+
+   Documentation/gpio.txt
+
+
+  
+
