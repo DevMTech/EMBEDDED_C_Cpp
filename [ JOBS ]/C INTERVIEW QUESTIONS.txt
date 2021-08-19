@@ -474,6 +474,10 @@ Set, toggle and clear 5th bit in C // https://www.codesdope.com/blog/article/set
 	x|= (1<<5);
 	x^= (1<<5);
 	x&=~(1<<5);
+	
+MACRO TO CHECK IF A BIT(bit) IN A NUMBER(n) IS SET OR NOT?
+
+#define ISBITSET(n, bit) ((unsigned int)((n >> bit) & 1))	
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Argument	
@@ -867,7 +871,7 @@ strstr	https://www.codevscolor.com/c-strstr-example
 
 
 
-strrev
+t/rrev
 	
 	
 	
@@ -898,6 +902,48 @@ strtok
 	
 strtok_r (reentant)	https://www.geeksforgeeks.org/strtok-strtok_r-functions-c-examples/
 						https://man7.org/linux/man-pages/man3/strtok_r.3.html
+
+============================================================================================================================================================================================================================	
+
+ALLEGION INTERVIEW 
+==================
+
+WHAT DOES 8/16/32BIT SIGNIFY FOR 8/16/32BIT MCU? HOW MUCH MEMORY CAN THEY ADDRESS?
+
+WHEN AN INTERRUPT OCCURS, WHERE (WHICH REGISTER) IS THE RETURN ADDRESS FROM THE INTRPT. STORED?
+
+HOW DOES AN INTERRUPT OCCUR? ALL THE INTERMEDIATE STEPS INVOLVING VECTOR TABLE, ISR, INTRPT. HANDLER ...
+
+WHAT IS INTERRUPT LATENCY? HOW TO MEASURE IT?
+
+HOW TO PASS TWO PARAMETERS TO A ISR TO ADD THE TWO NUMBERS IN AN ISR?
+
+WHAT IS RESOURCE DEADLOCK?
+
+HOW TO TRACK THE STACK USAGE OF A PROCESS?
+
+IN THE FOLLOWING SNIPPET, THE DELAY IS NOT OCCURING, HOW TO DEBUG?  	
+int i = 100000;
+while(i--) // DELAY LOOP
+{;}
+// HINT: Volatile, Compiler Optimization   
+
+STACK VS HEAP ? WHICH IS BETTER TO USE ? WHY ? {HEAP} 
+
+WHY RETURNING LOCAL VARIABLE FROM FUNCTION IS BAD PRACTISE ? (STACK COLLAPSE)
+
+
+
+TO SEND DATA AT A DISTANCE OF 2m, WHICH SERIAL COMM. PROTOCOL TO USE -> SPI / I2C / OTHER & WHY ? 
+    
+IN SERIAL COMM., HOW WOULD A SLAVE INFORM THE MASTER THAT THE SLAVE WANTS TO SEND DATA TO THE MASTER ?
+
+
+ONE LINE CODE TO CHECK IF A BIT(bit) IN A NUMBER(n) IS SET OR NOT? // unsigned int flag = ((n >> bit) & 1);
+
+WAP TO REMOVE DUPLICATE CHARACTERS FROM A STRING : INPUT -> "Hello World!!" | OUTPUT -> "Helo Word!"
+
+
 						
 ============================================================================================================================================================================================================================	
 		
